@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="836596c3-fa52-43b0-9f99-36597c716ed0">
+  <producedTypes>
+    <objectType typeId="e657ab2c-e124-4046-bfc9-0a57115ea071" valueTypeId="0d59fe5b-ea6a-4f63-baf5-fb9b1de4b513"/>
+    <refType typeId="a2143501-6ee2-4cd2-968f-3084fba7792d" valueTypeId="95fbe5f8-35aa-43ef-9ab2-e45f61cc149c"/>
+    <selectionType typeId="095e8efd-963d-4e98-8080-9c4257ec574a" valueTypeId="8bd6fc8f-492e-42e6-b656-a4620a96ebb2"/>
+    <listType typeId="fe312f7d-13aa-4f7a-9d78-32a216137a2f" valueTypeId="d7bd5719-679c-435b-84e8-4013429f1989"/>
+    <managerType typeId="26618faa-d511-4b2e-a38b-ab5060714f5e" valueTypeId="49ad955b-dffc-4594-8a44-9ccff3f5c036"/>
+  </producedTypes>
+  <name>ИОО_ПровайдерыLLM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Провайдеры LLM</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Провайдер LLM</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="053ad9f3-2025-46db-96bf-cf49cc1bd5c8">
+      <name>YandexGPT</name>
+      <description>YandexGPT</description>
+      <code xsi:type="core:StringValue">
+        <value>yandex</value>
+      </code>
+    </items>
+    <items id="5cbb18e1-c67c-4925-b795-886e5660bcc2">
+      <name>GigaChat</name>
+      <description>GigaChat</description>
+      <code xsi:type="core:StringValue">
+        <value>gigachat</value>
+      </code>
+    </items>
+    <items id="33a68f9b-3562-4c3c-9605-6dd43bf900e0">
+      <name>OpenAIСовместимый</name>
+      <description>OpenAI-совместимый</description>
+      <code xsi:type="core:StringValue">
+        <value>openai</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="37f8dd3e-cc49-4dbd-9907-b5ca324fcbc3">
+    <name>ФорматПротокола</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат протокола</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="febe6ce4-a12b-49de-9817-9178cc9c7575">
+    <name>АдресAPI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес API</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2cb4ecfe-8b69-4c0f-9bde-ead43cacb4b7">
+    <name>АдресАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес авторизации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e41f7d0d-df68-4c13-9beb-829c552ee574">
+    <name>СхемаАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема авторизации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b1bfd24-68ad-490a-9454-dfab9ff3981d">
+    <name>ОбластьДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область доступа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77ad99c7-0008-465e-92f2-c7e1390cf862">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

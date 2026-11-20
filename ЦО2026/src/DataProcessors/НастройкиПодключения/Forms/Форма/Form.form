@@ -39,47 +39,6 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВидПодключенияИИ</name>
-    <id>14</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ВидПодключенияИИ</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ВидПодключенияИИРасширеннаяПодсказка</name>
-      <id>16</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ВидПодключенияИИКонтекстноеМеню</name>
-      <id>15</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-      <textSize>Normal</textSize>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
     <name>КлючAPI</name>
     <id>18</id>
     <visible>true</visible>
@@ -122,6 +81,47 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
+    <name>АктивныйПрофиль</name>
+    <id>73</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>АктивныйПрофиль</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>АктивныйПрофильРасширеннаяПодсказка</name>
+      <id>75</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>АктивныйПрофильКонтекстноеМеню</name>
+      <id>74</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
     <name>ИдентификаторКаталога</name>
     <id>22</id>
     <visible>true</visible>
@@ -145,6 +145,47 @@
     <contextMenu>
       <name>ИдентификаторКаталогаКонтекстноеМеню</name>
       <id>23</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+      <textSize>Normal</textSize>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>Провайдер</name>
+    <id>76</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Провайдер</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ПровайдерРасширеннаяПодсказка</name>
+      <id>78</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ПровайдерКонтекстноеМеню</name>
+      <id>77</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -696,23 +737,6 @@
   <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>ВидПодключенияИИ</name>
-    <title>
-      <key>ru</key>
-      <value>Вид подключения</value>
-    </title>
-    <id>17</id>
-    <valueType>
-      <types>EnumRef.ВидыПодключенияИИ</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>КлючAPI</name>
     <title>
       <key>ru</key>
@@ -943,6 +967,40 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АктивныйПрофиль</name>
+    <title>
+      <key>ru</key>
+      <value>АктивныйПрофиль</value>
+    </title>
+    <id>74</id>
+    <valueType>
+      <types>CatalogRef.ИОО_ПрофилиLLM</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Провайдер</name>
+    <title>
+      <key>ru</key>
+      <value>Провайдер</value>
+    </title>
+    <id>75</id>
+    <valueType>
+      <types>CatalogRef.ИОО_ПровайдерыLLM</types>
     </valueType>
     <view>
       <common>true</common>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="715169b1-2f32-475b-b034-2591bd3dc12d">
+  <producedTypes>
+    <managerType typeId="a01ac4db-8014-4192-a357-b2a25a36002b" valueTypeId="9ec5a78b-54d1-4496-babf-905c8f514523"/>
+    <valueManagerType typeId="abffc4e7-dfd7-4dac-a4df-4438c4cb89be" valueTypeId="f5cb4b95-28dc-43e7-8802-5cecc32550ad"/>
+    <valueKeyType typeId="622d3232-67a3-44c7-b436-dcb7b9cec130" valueTypeId="afa650cb-4097-421c-8683-5439dacc4f57"/>
+  </producedTypes>
+  <name>АктивныйПрофильLLM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активный профиль LLM</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ИОО_ПрофилиLLM</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

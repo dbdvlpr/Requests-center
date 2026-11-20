@@ -14,7 +14,7 @@
       <commands>Catalog.Договоры.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
-      <commands>Catalog.КатегорииОбращений.StandardCommand.OpenList</commands>
+      <commands>Catalog.ИОО_КатегорииОбращений.StandardCommand.OpenList</commands>
       <commands>Catalog.УчетныеЗаписиПочты.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ЖурналВызововИИ.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ИсправленияКлассификации.StandardCommand.OpenList</commands>
@@ -38,7 +38,7 @@
       <commands>Catalog.Договоры.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
-      <commands>Catalog.КатегорииОбращений.StandardCommand.OpenList</commands>
+      <commands>Catalog.ИОО_КатегорииОбращений.StandardCommand.OpenList</commands>
       <commands>Catalog.УчетныеЗаписиПочты.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ЖурналВызововИИ.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ИсправленияКлассификации.StandardCommand.OpenList</commands>

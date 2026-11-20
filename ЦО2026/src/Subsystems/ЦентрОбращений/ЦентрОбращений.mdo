@@ -15,22 +15,18 @@
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Договоры</content>
   <content>Catalog.Сотрудники</content>
-  <content>Catalog.ТегиКомпетенций</content>
-  <content>Catalog.КатегорииОбращений</content>
+  <content>Catalog.ИОО_ТегиКомпетенций</content>
+  <content>Catalog.ИОО_КатегорииОбращений</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.УчетныеЗаписиПочты</content>
   <content>InformationRegister.ЖурналВызововИИ</content>
   <content>InformationRegister.ИсправленияКлассификации</content>
-  <content>Constant.ВидПодключенияИИ</content>
-  <content>Constant.КлючAPI</content>
-  <content>Constant.ИдентификаторКаталога</content>
-  <content>Constant.ИмяМодели</content>
-  <content>Constant.АдресAPI</content>
-  <content>Constant.СхемаАвторизации</content>
-  <content>Constant.ТаймаутСекунд</content>
-  <content>Constant.МаксимумТокенов</content>
-  <content>Constant.Температура</content>
-  <content>Constant.КоличествоПримеров</content>
-  <content>Constant.ОбезличиватьПередОтправкой</content>
-  <content>Constant.ОбластьДоступаGigaChat</content>
+  <content>Catalog.ИОО_КаналыОбращений</content>
+  <content>Catalog.ИОО_СтатусыОбращений</content>
+  <content>Catalog.ИОО_СтатусыВерификации</content>
+  <content>Catalog.ИОО_УровниЭмоциональности</content>
+  <content>Catalog.ИОО_ПриоритетыКонтрагентов</content>
+  <content>Catalog.ИОО_СпособыОтвета</content>
+  <content>Catalog.ИОО_ПровайдерыLLM</content>
+  <content>Catalog.ИОО_ПрофилиLLM</content>
 </mdclass:Subsystem>

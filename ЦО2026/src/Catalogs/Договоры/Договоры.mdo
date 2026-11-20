@@ -176,13 +176,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="0c54a2d0-b387-56d3-a9bf-b6317a9ef344">
-    <name>УровеньКлиента</name>
+    <name>ПриоритетКонтрагента</name>
     <synonym>
       <key>ru</key>
       <value>Уровень клиента</value>
     </synonym>
     <type>
-      <types>EnumRef.УровниКлиента</types>
+      <types>CatalogRef.ИОО_ПриоритетыКонтрагентов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

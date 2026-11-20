@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="897e86fe-0f24-4eb1-a4d9-8caba6362dff">
+  <producedTypes>
+    <refType typeId="84de37c5-d7b8-4e42-8bc2-d16b8858d03b" valueTypeId="9ea04baa-ac27-4123-b500-721a9dff376f"/>
+    <listType typeId="dcd1a104-a6b2-4244-9fad-a1f0bc427edb" valueTypeId="dbe55e7f-7c88-47cd-acf8-924d1f7d5939"/>
+    <managerType typeId="c700b35d-fecb-49bc-b3d7-fdc27c8837e1" valueTypeId="2b61147c-f7be-48cc-99bd-bcb3e2d2b581"/>
+  </producedTypes>
+  <name>ИОО_ИсточникиСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники сообщений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5735513b-825f-43a6-850e-56a4bb61f027">
+    <name>HTTPСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTTP-сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b98c9c4-6062-403d-ac9d-d35d866d266b">
+    <name>ПочтовыйЯщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почтовый ящик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e80971c-5cd7-4e3c-90b8-58fca25dc7dd">
+    <name>РучнойВвод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной ввод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63944df0-7d1a-4bf0-aa06-9e9369eb1095">
+    <name>Импорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

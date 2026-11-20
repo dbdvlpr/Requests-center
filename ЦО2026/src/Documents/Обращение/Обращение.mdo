@@ -36,7 +36,7 @@
       <value>Канал</value>
     </synonym>
     <type>
-      <types>EnumRef.КаналыОбращений</types>
+      <types>CatalogRef.ИОО_КаналыОбращений</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -76,13 +76,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="fcf131ac-21dd-5660-a18b-5dc1ce59b1ec">
-    <name>УровеньКлиента</name>
+    <name>ПриоритетКонтрагента</name>
     <synonym>
       <key>ru</key>
       <value>Уровень клиента</value>
     </synonym>
     <type>
-      <types>EnumRef.УровниКлиента</types>
+      <types>CatalogRef.ИОО_ПриоритетыКонтрагентов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -170,7 +170,7 @@
       <value>Категория</value>
     </synonym>
     <type>
-      <types>CatalogRef.КатегорииОбращений</types>
+      <types>CatalogRef.ИОО_КатегорииОбращений</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -200,13 +200,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="cdf1fb7a-4bb4-5592-b7b4-4589f48445ed">
-    <name>Тональность</name>
+    <name>УровеньЭмоциональности</name>
     <synonym>
       <key>ru</key>
       <value>Тональность</value>
     </synonym>
     <type>
-      <types>EnumRef.ТональностьОбращения</types>
+      <types>CatalogRef.ИОО_УровниЭмоциональности</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -313,7 +313,7 @@
       <value>Категория ИИ</value>
     </synonym>
     <type>
-      <types>CatalogRef.КатегорииОбращений</types>
+      <types>CatalogRef.ИОО_КатегорииОбращений</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -343,13 +343,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="f2f2c90f-c434-5923-b402-a66dcc7f73c0">
-    <name>ТональностьИИ</name>
+    <name>УровеньЭмоциональностиИИ</name>
     <synonym>
       <key>ru</key>
       <value>Тональность ИИ</value>
     </synonym>
     <type>
-      <types>EnumRef.ТональностьОбращения</types>
+      <types>CatalogRef.ИОО_УровниЭмоциональности</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -436,7 +436,7 @@
       <value>Статус</value>
     </synonym>
     <type>
-      <types>EnumRef.СтатусыОбращения</types>
+      <types>CatalogRef.ИОО_СтатусыОбращений</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -451,7 +451,7 @@
       <value>Статус верификации</value>
     </synonym>
     <type>
-      <types>EnumRef.СтатусыВерификации</types>
+      <types>CatalogRef.ИОО_СтатусыВерификации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -466,7 +466,7 @@
       <value>Способ ответа</value>
     </synonym>
     <type>
-      <types>EnumRef.СпособыОтвета</types>
+      <types>CatalogRef.ИОО_СпособыОтвета</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -622,6 +622,36 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0dd7653b-5c22-4da1-abbc-95c223f45bbc">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИОО_ИсточникиСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b896027d-5fff-4b61-928e-d2edaf723184">
+    <name>СтатусЧерновика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус черновика</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИОО_СтатусыЧерновикаОтвета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

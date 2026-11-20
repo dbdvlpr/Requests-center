@@ -4,40 +4,6 @@
     <key>ru</key>
     <value>Рабочее место оператора</value>
   </title>
-  <items xsi:type="form:Decoration">
-    <name>Пояснение</name>
-    <id>11</id>
-    <title>
-      <key>ru</key>
-      <value>Почта забирается по IMAP, веб-форма пишет в тот же документ, звонок вставляется текстом расшифровки. Ответ на почту уходит письмом, ответ формы публикуется по номеру обращения и дублируется на почту, если адрес есть. По звонку фиксируется, что клиенту сообщили.</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>ПояснениеРасширеннаяПодсказка</name>
-      <id>13</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ПояснениеКонтекстноеМеню</name>
-      <id>12</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>Label</type>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <extInfo xsi:type="form:LabelDecorationExtInfo">
-      <horizontalAlign>Left</horizontalAlign>
-    </extInfo>
-  </items>
   <items xsi:type="form:FormField">
     <name>Канал</name>
     <id>14</id>
@@ -1872,23 +1838,6 @@
   <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>Канал</name>
-    <title>
-      <key>ru</key>
-      <value>Канал</value>
-    </title>
-    <id>17</id>
-    <valueType>
-      <types>EnumRef.КаналыОбращений</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>Контрагент</name>
     <title>
       <key>ru</key>
@@ -2342,24 +2291,7 @@
     </title>
     <id>125</id>
     <valueType>
-      <types>CatalogRef.КатегорииОбращений</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>Тональность</name>
-    <title>
-      <key>ru</key>
-      <value>Тональность</value>
-    </title>
-    <id>129</id>
-    <valueType>
-      <types>EnumRef.ТональностьОбращения</types>
+      <types>CatalogRef.ИОО_КатегорииОбращений</types>
     </valueType>
     <view>
       <common>true</common>
@@ -2486,6 +2418,40 @@
     <id>168</id>
     <valueType>
       <types>DocumentRef.Обращение</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Канал</name>
+    <title>
+      <key>ru</key>
+      <value>Канал</value>
+    </title>
+    <id>169</id>
+    <valueType>
+      <types>CatalogRef.ИОО_КаналыОбращений</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Тональность</name>
+    <title>
+      <key>ru</key>
+      <value>Тональность</value>
+    </title>
+    <id>170</id>
+    <valueType>
+      <types>CatalogRef.ИОО_УровниЭмоциональности</types>
     </valueType>
     <view>
       <common>true</common>

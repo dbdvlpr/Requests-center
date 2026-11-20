@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="200b6a2d-fb18-401a-891e-cb5a08392888">
+  <producedTypes>
+    <objectType typeId="32a7d651-2ec0-4dda-8b26-94d611d632b2" valueTypeId="2bd16927-26e9-46ff-8c06-5f63221ef7df"/>
+    <refType typeId="b4fff497-8bea-49d5-bb45-10cd4e567605" valueTypeId="d4c6158a-be4c-4ca1-aaf3-dbe4aa9bf0e5"/>
+    <selectionType typeId="770142a3-8e7c-4b62-8cfc-ac842ac9f20c" valueTypeId="5c14625c-25a8-47a4-88cf-a505636f4fb1"/>
+    <listType typeId="4f50baef-b1b2-4e1d-9e25-fa15307e318b" valueTypeId="cfdde70c-a1f2-4462-8500-8a514c761a0d"/>
+    <managerType typeId="34ba3eac-4fbf-4955-b1c1-d037756fc768" valueTypeId="8a76b311-9c7c-43dd-a0a0-bbcdef6cfffa"/>
+  </producedTypes>
+  <name>ИОО_УровниЭмоциональности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни эмоциональности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уровень эмоциональности</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e9b61483-64f4-4ea2-a564-ca3b8a2874b1">
+      <name>Нейтральный</name>
+      <description>Нейтральный</description>
+      <code xsi:type="core:StringValue">
+        <value>neutral</value>
+      </code>
+    </items>
+    <items id="b908ab3d-aa54-45e1-8bef-fa9a98564716">
+      <name>Недовольный</name>
+      <description>Недовольный</description>
+      <code xsi:type="core:StringValue">
+        <value>dissatisfied</value>
+      </code>
+    </items>
+    <items id="7c78bf1d-ad13-47d8-a5d7-23d43730972b">
+      <name>Раздраженный</name>
+      <description>Раздражённый</description>
+      <code xsi:type="core:StringValue">
+        <value>irritated</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="250eb7af-f5b8-4868-bbac-99bac06cdc8b">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2d57058-8fc5-49a5-9745-290f896ea26c">
+    <name>Негативный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Негативный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

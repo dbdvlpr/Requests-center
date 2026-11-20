@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be4c313b-293f-46a1-8650-f051c2938ce7">
+  <producedTypes>
+    <objectType typeId="6e078803-36aa-49fb-8465-9e30200ee4cf" valueTypeId="55ba4b5f-289e-459f-8767-51feeeb31df3"/>
+    <refType typeId="e8263370-352a-42cd-b31f-2eff31e88764" valueTypeId="e96e09e0-22e6-428d-b4a6-82d4b70e5270"/>
+    <selectionType typeId="79c73784-f1a0-4117-a7a1-054b9e42e577" valueTypeId="7d29afda-31fb-44d7-96c3-8ce2eebc8794"/>
+    <listType typeId="b4d3d1f5-3830-4afd-8456-1a0d860dc8b7" valueTypeId="75fa7ed0-f05a-4a5b-905b-1b11456a240c"/>
+    <managerType typeId="589ffb85-100f-47c3-881c-eba9e0da09d5" valueTypeId="bb29bbef-ff0b-49cf-a063-f8f706ad7239"/>
+  </producedTypes>
+  <name>ИОО_СтатусыОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы обращений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статус обращения</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8482b418-534d-460c-8ec4-9e930b59d596">
+      <name>Новое</name>
+      <description>Новое</description>
+      <code xsi:type="core:StringValue">
+        <value>new</value>
+      </code>
+    </items>
+    <items id="fe61f396-bc87-46c4-9fbc-81bd8e153298">
+      <name>Классифицировано</name>
+      <description>Классифицировано</description>
+      <code xsi:type="core:StringValue">
+        <value>classified</value>
+      </code>
+    </items>
+    <items id="3472c3f1-116d-4c61-9bab-fdad0a5ed8d2">
+      <name>Назначено</name>
+      <description>Назначено</description>
+      <code xsi:type="core:StringValue">
+        <value>assigned</value>
+      </code>
+    </items>
+    <items id="dc63cae1-fa9d-48cc-9d3b-3e4c04695204">
+      <name>ОтветПодготовлен</name>
+      <description>Ответ подготовлен</description>
+      <code xsi:type="core:StringValue">
+        <value>answer_ready</value>
+      </code>
+    </items>
+    <items id="bb97415e-ec3f-41b6-ab6c-75b1b2bd3544">
+      <name>ОтветОтправлен</name>
+      <description>Ответ отправлен</description>
+      <code xsi:type="core:StringValue">
+        <value>answer_sent</value>
+      </code>
+    </items>
+    <items id="d64d1e93-080c-464b-8dd8-83cd503c8996">
+      <name>Закрыто</name>
+      <description>Закрыто</description>
+      <code xsi:type="core:StringValue">
+        <value>closed</value>
+      </code>
+    </items>
+    <items id="dcb6415a-280d-4619-b243-f9032046984f">
+      <name>ОшибкаИИ</name>
+      <description>Ошибка ИИ</description>
+      <code xsi:type="core:StringValue">
+        <value>ai_error</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="521f8378-10b0-40f0-af4a-90ffdaaaf4f7">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee476caa-a2f3-4c42-8823-3dead275da62">
+    <name>Закрывающий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрывающий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5b48f75-a33b-4e23-9915-a0388d48245d">
+    <name>ОшибкаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка обработки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

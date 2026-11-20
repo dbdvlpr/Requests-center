@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1862fb3-c67c-4983-83c5-81e8a565f8f5">
+  <producedTypes>
+    <objectType typeId="9b21879c-a2f1-4560-8801-fac43bd2fbd8" valueTypeId="b280da8f-2e88-4ab8-bd26-503ebdceca43"/>
+    <refType typeId="9843196b-d9e7-4918-99bf-e8e2803d9c80" valueTypeId="766e234a-2b3b-4961-9d2c-31714a81cafa"/>
+    <selectionType typeId="8335ef12-289a-487a-989d-c0ee9fea7170" valueTypeId="1f1213d4-e4d6-452a-b1a2-06c43c8700ea"/>
+    <listType typeId="456f5f9a-e629-4a90-b18e-ea7534f3ffc1" valueTypeId="50a46bfe-713e-441b-93a7-219ff766daa5"/>
+    <managerType typeId="db1785fc-11c0-4038-91db-d72be8de0a35" valueTypeId="9533f821-e653-4250-8e35-f179ac64daba"/>
+  </producedTypes>
+  <name>ИОО_КаналыОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каналы обращений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Канал обращения</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9fbdeac4-f053-46a8-9259-b9c10d5eccca">
+      <name>Почта</name>
+      <description>Почта</description>
+      <code xsi:type="core:StringValue">
+        <value>email</value>
+      </code>
+    </items>
+    <items id="fb8a3629-7c17-4cb0-ac52-829cb1be563a">
+      <name>Звонок</name>
+      <description>Звонок</description>
+      <code xsi:type="core:StringValue">
+        <value>phone</value>
+      </code>
+    </items>
+    <items id="6e9af096-6a5a-4f1e-8769-b704bd95548a">
+      <name>ВебФорма</name>
+      <description>Веб-форма</description>
+      <code xsi:type="core:StringValue">
+        <value>web</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c139c2ac-cd91-4614-8a0d-e4b56dd1f084">
+    <name>ВнешнийКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="828f62ef-b9bc-448f-91ba-a62b5301c5ac">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db59317c-7f8e-44af-a31d-b333b0771d8f">
+    <name>СпособОтветаПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ ответа по умолчанию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИОО_СпособыОтвета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

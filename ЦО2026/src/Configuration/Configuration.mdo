@@ -52,33 +52,27 @@
   <commonModules>CommonModule.ДемонстрационныеДанные</commonModules>
   <httpServices>HTTPService.ПриемОбращений</httpServices>
   <scheduledJobs>ScheduledJob.ПолучениеПочты</scheduledJobs>
-  <constants>Constant.ВидПодключенияИИ</constants>
-  <constants>Constant.КлючAPI</constants>
-  <constants>Constant.ИдентификаторКаталога</constants>
-  <constants>Constant.ИмяМодели</constants>
-  <constants>Constant.АдресAPI</constants>
-  <constants>Constant.СхемаАвторизации</constants>
-  <constants>Constant.ТаймаутСекунд</constants>
-  <constants>Constant.МаксимумТокенов</constants>
-  <constants>Constant.Температура</constants>
-  <constants>Constant.КоличествоПримеров</constants>
-  <constants>Constant.ОбезличиватьПередОтправкой</constants>
-  <constants>Constant.ОбластьДоступаGigaChat</constants>
+  <constants>Constant.АктивныйПрофильLLM</constants>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
-  <catalogs>Catalog.ТегиКомпетенций</catalogs>
+  <catalogs>Catalog.ИОО_ТегиКомпетенций</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.КатегорииОбращений</catalogs>
+  <catalogs>Catalog.ИОО_КатегорииОбращений</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.УчетныеЗаписиПочты</catalogs>
+  <catalogs>Catalog.ИОО_СпособыОтвета</catalogs>
+  <catalogs>Catalog.ИОО_СтатусыОбращений</catalogs>
+  <catalogs>Catalog.ИОО_СтатусыВерификации</catalogs>
+  <catalogs>Catalog.ИОО_УровниЭмоциональности</catalogs>
+  <catalogs>Catalog.ИОО_ПриоритетыКонтрагентов</catalogs>
+  <catalogs>Catalog.ИОО_ПровайдерыLLM</catalogs>
+  <catalogs>Catalog.ИОО_КаналыОбращений</catalogs>
+  <catalogs>Catalog.ИОО_ПрофилиLLM</catalogs>
   <documents>Document.Обращение</documents>
-  <enums>Enum.ВидыПодключенияИИ</enums>
-  <enums>Enum.КаналыОбращений</enums>
-  <enums>Enum.УровниКлиента</enums>
-  <enums>Enum.ТональностьОбращения</enums>
-  <enums>Enum.СтатусыОбращения</enums>
-  <enums>Enum.СтатусыВерификации</enums>
-  <enums>Enum.СпособыОтвета</enums>
+  <enums>Enum.ИОО_ИсточникиСообщений</enums>
+  <enums>Enum.ИОО_ТипыПараметров</enums>
+  <enums>Enum.ИОО_ТипыЗадачLLM</enums>
+  <enums>Enum.ИОО_СтатусыЧерновикаОтвета</enums>
   <dataProcessors>DataProcessor.НачальнаяСтраница</dataProcessors>
   <dataProcessors>DataProcessor.РабочееМестоОператора</dataProcessors>
   <dataProcessors>DataProcessor.ПанельРуководителя</dataProcessors>

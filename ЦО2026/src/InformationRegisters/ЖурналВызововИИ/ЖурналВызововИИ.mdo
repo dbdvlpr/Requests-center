@@ -102,14 +102,11 @@
       <value>Назначение</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>40</length>
-      </stringQualifiers>
+      <types>EnumRef.ИОО_ТипыЗадачLLM</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="971d67b7-4da1-5071-aaaa-95c2e1382b0a">
     <name>Модель</name>
@@ -174,6 +171,21 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="b9a7293c-ce71-4c30-8987-1e35b731e160">
+    <name>Профиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИОО_ПрофилиLLM</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <dimensions uuid="11734408-d8c9-5898-a4b1-ddffba0dd208">
     <name>Идентификатор</name>

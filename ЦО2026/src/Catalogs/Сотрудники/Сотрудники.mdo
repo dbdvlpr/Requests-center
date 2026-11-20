@@ -189,7 +189,7 @@
         <value>Тег</value>
       </synonym>
       <type>
-        <types>CatalogRef.ТегиКомпетенций</types>
+        <types>CatalogRef.ИОО_ТегиКомпетенций</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

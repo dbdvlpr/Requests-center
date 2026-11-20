@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53d83313-65d3-4e85-9420-67f5aa28ba6f">
+  <producedTypes>
+    <refType typeId="c0a1028f-f810-432b-8824-865d82221426" valueTypeId="6593ba52-061e-4fec-807a-74471740747a"/>
+    <listType typeId="b5f6b8f4-d740-4241-936a-742378ec31d7" valueTypeId="c590a616-b2fd-4a86-957e-c22a270d2d46"/>
+    <managerType typeId="3255dd51-b3b1-4c22-a854-eba6e899cc7c" valueTypeId="4eebaf00-480a-4401-b479-251d0f2f6e02"/>
+  </producedTypes>
+  <name>ИОО_СтатусыЧерновикаОтвета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы черновика ответа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d4bccfaf-4074-4908-8961-032efbb59431">
+    <name>НеСформирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не сформирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b850db6-900d-4bf6-9d81-43526424ae83">
+    <name>Сформирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc63086f-0482-49cc-a866-d0b6c5156a25">
+    <name>Проверен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11e7df82-6fde-4d98-92df-b3d9e8f2f031">
+    <name>Отправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bde36d0e-02ee-4d6d-a370-99dd8ddb860b">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонён</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

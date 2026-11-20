@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="739bd645-2211-47c5-819a-6c7f499b89f7">
+  <producedTypes>
+    <refType typeId="431f1f2e-7014-4e15-b214-8684170821db" valueTypeId="fbbe43ea-2d16-4347-9cb5-73d3b42dc43b"/>
+    <listType typeId="70eee2d1-cbaa-4bc6-8c09-6ac216975a7c" valueTypeId="9dee49f5-672f-4dd8-9a53-edea74fa705d"/>
+    <managerType typeId="f8c4aafc-094a-41f1-93ef-1174c4146d7f" valueTypeId="587e78b6-2f32-42ae-b38c-800f6b20f196"/>
+  </producedTypes>
+  <name>ИОО_ТипыЗадачLLM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы задач LLM</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="21e47c90-a84e-44fb-a802-2789c6b71dac">
+    <name>Классификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8df0924-6f48-4294-8ed9-582fdfd95a00">
+    <name>Приоритизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритизация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1009021-3b1e-480d-9018-15f5b5af81dc">
+    <name>ЧерновикОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик ответа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="552d2faa-eca0-418c-8ec1-4cac0b769c41">
+    <name>Обезличивание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обезличивание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a407cbfe-68d4-42bc-839b-5dc3878cfe10">
+    <name>ПроверкаСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка соединения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

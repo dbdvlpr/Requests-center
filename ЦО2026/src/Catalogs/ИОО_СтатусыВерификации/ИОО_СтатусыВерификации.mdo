@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3a9ccf4-e8cd-4f28-a680-7e955e491bde">
+  <producedTypes>
+    <objectType typeId="4a525d89-04ac-4092-8d25-5bb855a9728b" valueTypeId="cad5e80e-ba27-46cf-8ddb-1e40a0f6dc62"/>
+    <refType typeId="12398ff6-5772-4c14-a6b8-6e74f4f06dfb" valueTypeId="95d84bf0-315f-4b01-a4ac-0c9613be445a"/>
+    <selectionType typeId="432a38e9-8b4c-49fe-a55e-5579c4326a52" valueTypeId="8c8c0225-4e95-42e5-b5e0-267a1705fb8b"/>
+    <listType typeId="0c6f0241-3b33-4035-9faa-997b4948c954" valueTypeId="cc4fbfa8-5014-4149-8384-a2b0f6804f60"/>
+    <managerType typeId="90652f2c-f7f6-4730-b3dc-6e5bc62394f1" valueTypeId="35a1c2ab-5865-49fb-83b7-a15c0d21e45e"/>
+  </producedTypes>
+  <name>ИОО_СтатусыВерификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы верификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статус верификации</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="0bfedb0c-c80a-4d52-9c59-740313cc9be1">
+      <name>НеПроверено</name>
+      <description>Не проверено</description>
+      <code xsi:type="core:StringValue">
+        <value>not_checked</value>
+      </code>
+    </items>
+    <items id="d425c418-57a5-4d24-9fa9-01218ac1ad14">
+      <name>Подтверждено</name>
+      <description>Подтверждено</description>
+      <code xsi:type="core:StringValue">
+        <value>confirmed</value>
+      </code>
+    </items>
+    <items id="e18034a2-8186-4ec6-86fd-ea0c4b329319">
+      <name>Исправлено</name>
+      <description>Исправлено</description>
+      <code xsi:type="core:StringValue">
+        <value>corrected</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

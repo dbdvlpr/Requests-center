@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77ea15ed-c42b-4044-bfdb-316967f5882c">
+  <producedTypes>
+    <objectType typeId="bca628d3-19d3-4584-b7a0-4062a9e5c942" valueTypeId="8943a018-e099-42aa-a98d-89be1f61f6af"/>
+    <refType typeId="f270bedd-16aa-451e-af28-1343c9753f58" valueTypeId="7a2968d0-7341-4c59-988b-c460c486e63e"/>
+    <selectionType typeId="792816cb-dab2-49ba-ad21-e3da1d201814" valueTypeId="522848fd-8577-4808-9d3d-0be18784a5de"/>
+    <listType typeId="e503675d-df22-4046-9fa7-98c835a1b1e7" valueTypeId="6ee113b0-c956-4c86-aca0-c25646bc68f7"/>
+    <managerType typeId="3760cf40-f204-4bc9-a2b4-bfeecb2ebcd8" valueTypeId="79a19616-61c2-4ff7-ab10-e2301cdbfa1c"/>
+  </producedTypes>
+  <name>ИОО_ПриоритетыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Приоритет контрагента</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="bf69edde-9071-4698-bdc9-ec6d01cfaf58">
+      <name>Обычный</name>
+      <description>Обычный</description>
+      <code xsi:type="core:StringValue">
+        <value>normal</value>
+      </code>
+    </items>
+    <items id="e6cce228-f5e0-4cf0-aa5e-c4a4213f2b7f">
+      <name>Приоритетный</name>
+      <description>Приоритетный</description>
+      <code xsi:type="core:StringValue">
+        <value>priority</value>
+      </code>
+    </items>
+    <items id="fc577192-6272-4b7e-b909-3d92753f5a99">
+      <name>VIP</name>
+      <description>VIP</description>
+      <code xsi:type="core:StringValue">
+        <value>vip</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d8e90e5b-7bb2-417d-aa39-84d989b94aff">
+    <name>Ранг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ранг</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

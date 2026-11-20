@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0567a7d4-5e61-4a92-8950-cbf603095cd9">
+  <producedTypes>
+    <objectType typeId="a97d7b10-9d7a-4b27-959b-2b9d4de1d79f" valueTypeId="d9fa17cb-28c3-4cb0-9168-3a2ad1725c32"/>
+    <refType typeId="ccf97cf2-6fdf-478f-8993-404c64ebee25" valueTypeId="c30680b0-bac2-4740-90e7-446b2f3b2f84"/>
+    <selectionType typeId="fea03212-aafe-41e4-a6dc-f63b34fede34" valueTypeId="c60699d5-d39d-456b-82ee-88022549541e"/>
+    <listType typeId="d7a16094-ec27-4170-a96d-7d0e63e59809" valueTypeId="ea196cd9-9e0d-4a95-8178-398160929aa2"/>
+    <managerType typeId="a93f04ad-b3d9-4f9c-82c6-5edf47dd5af1" valueTypeId="777fd96c-908c-4a4a-8289-14b73592f8ed"/>
+  </producedTypes>
+  <name>ИОО_СпособыОтвета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы ответа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Способ ответа</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="121ed900-576f-45db-9fac-1b7f523c0e41">
+      <name>ЭлектроннаяПочта</name>
+      <description>Электронная почта</description>
+      <code xsi:type="core:StringValue">
+        <value>email</value>
+      </code>
+    </items>
+    <items id="419e7f0a-3337-4929-bda5-3c73ba793f7e">
+      <name>ПубликацияВФорме</name>
+      <description>Публикация в форме</description>
+      <code xsi:type="core:StringValue">
+        <value>form</value>
+      </code>
+    </items>
+    <items id="41fe29b8-bf29-44bd-9b32-f077b917bc44">
+      <name>СообщеноПоЗвонку</name>
+      <description>Сообщено по звонку</description>
+      <code xsi:type="core:StringValue">
+        <value>phone</value>
+      </code>
+    </items>
+    <items id="998c28d3-34e1-4c6e-a2c0-10b1796d3576">
+      <name>ПочтаИФорма</name>
+      <description>Почта и форма</description>
+      <code xsi:type="core:StringValue">
+        <value>email_form</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
