@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2e7bfd8-3a9a-4acf-99c1-9753c46eecac">
+  <name>ЦентрОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр интеллектуальной обработки клиентских обращений</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="af4d8fef-36c6-4861-8577-ebd3bb52f360"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="088dcc31-188f-488f-a4cc-843713f7bc13"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2ba40841-00b6-4a5b-ba78-cd1d660a72bf"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ee39ff62-df3d-40c2-b8e4-8cbde8922cf5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9422514d-4b6a-436a-9faa-21f4630b1bec"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="8cd81be2-95e1-45ef-9821-9bee0584bc1c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e23b90bf-6ac6-4a8e-8ec0-3417d71f6183"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <vendor>IT-марафон</vendor>
+  <version>1.0.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="3bcfe8d9-bbff-4be1-937d-84195406c040">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ЦентрОбращений</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ОператорПоддержки</roles>
+  <roles>Role.Руководитель</roles>
+  <commonModules>CommonModule.ИнтеграцияLLM</commonModules>
+  <commonModules>CommonModule.ОбработкаОбращений</commonModules>
+  <commonModules>CommonModule.РаботаСПочтой</commonModules>
+  <commonModules>CommonModule.ДемонстрационныеДанные</commonModules>
+  <httpServices>HTTPService.ПриемОбращений</httpServices>
+  <scheduledJobs>ScheduledJob.ПолучениеПочты</scheduledJobs>
+  <constants>Constant.ВидПодключенияИИ</constants>
+  <constants>Constant.КлючAPI</constants>
+  <constants>Constant.ИдентификаторКаталога</constants>
+  <constants>Constant.ИмяМодели</constants>
+  <constants>Constant.АдресAPI</constants>
+  <constants>Constant.СхемаАвторизации</constants>
+  <constants>Constant.ТаймаутСекунд</constants>
+  <constants>Constant.МаксимумТокенов</constants>
+  <constants>Constant.Температура</constants>
+  <constants>Constant.КоличествоПримеров</constants>
+  <constants>Constant.ОбезличиватьПередОтправкой</constants>
+  <constants>Constant.ОбластьДоступаGigaChat</constants>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.ТегиКомпетенций</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.КатегорииОбращений</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиПочты</catalogs>
+  <documents>Document.Обращение</documents>
+  <enums>Enum.ВидыПодключенияИИ</enums>
+  <enums>Enum.КаналыОбращений</enums>
+  <enums>Enum.УровниКлиента</enums>
+  <enums>Enum.ТональностьОбращения</enums>
+  <enums>Enum.СтатусыОбращения</enums>
+  <enums>Enum.СтатусыВерификации</enums>
+  <enums>Enum.СпособыОтвета</enums>
+  <dataProcessors>DataProcessor.НачальнаяСтраница</dataProcessors>
+  <dataProcessors>DataProcessor.РабочееМестоОператора</dataProcessors>
+  <dataProcessors>DataProcessor.ПанельРуководителя</dataProcessors>
+  <dataProcessors>DataProcessor.НастройкиПодключения</dataProcessors>
+  <informationRegisters>InformationRegister.ЖурналВызововИИ</informationRegisters>
+  <informationRegisters>InformationRegister.ИсправленияКлассификации</informationRegisters>
+</mdclass:Configuration>

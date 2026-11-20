@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ece4dbb-bdcf-5ea0-a6b2-387fb89f6097">
+  <producedTypes>
+    <refType typeId="eb207c19-9a28-5b3d-827a-5b1b55cadd6e" valueTypeId="22bee2e4-9d35-52d9-9a23-a110b7717d71"/>
+    <listType typeId="b9b4b35d-d2b9-5d99-9700-6d65d297dd63" valueTypeId="e1089faa-000a-582b-b9cb-bb567417dd52"/>
+    <managerType typeId="64d3c04f-bf9a-55ed-9169-8f3ebc727c0c" valueTypeId="891e246d-d8cf-5d4c-b825-e4477e2bd205"/>
+  </producedTypes>
+  <name>КаналыОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каналы обращений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e2238ddd-9847-5bc2-8157-24d7ed15b7b3">
+    <name>Почта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0f38633-7471-54df-bf08-cd1d5d75815d">
+    <name>Звонок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звонок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="364d9c48-e603-5da6-8bea-ce9fe3675cd6">
+    <name>ВебФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб-форма</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

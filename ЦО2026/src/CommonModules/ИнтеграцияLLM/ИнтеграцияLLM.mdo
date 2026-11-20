@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a979e569-90dd-5623-bc76-5756c72363a9">
+  <name>ИнтеграцияLLM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция LLM</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

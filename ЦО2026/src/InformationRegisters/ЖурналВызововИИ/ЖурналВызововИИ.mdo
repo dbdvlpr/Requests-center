@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7157f89-d9d2-5c3e-bfc6-a3c8548dde35">
+  <producedTypes>
+    <selectionType typeId="3bc8ec4a-72f9-5226-b9bb-f261f5c9384e" valueTypeId="7bab2734-22e1-5190-b4c2-31091b5627b0"/>
+    <listType typeId="763b823c-46e3-57a1-9500-c20a8b086e8d" valueTypeId="d5ca714d-11e8-573c-bf5f-87670b32b22f"/>
+    <managerType typeId="840af4aa-fba6-551a-b266-8af00c4213df" valueTypeId="b84816b9-cf89-5a0b-9a03-3cb0cc35fe4b"/>
+    <recordSetType typeId="6642738f-8fc2-52c3-90cf-0f9237542d62" valueTypeId="a1fba2ec-94b2-58d9-a0d0-0e5cf26247d9"/>
+    <recordKeyType typeId="a8f5253c-35f7-5ec8-9d9f-b83e2bba2f2c" valueTypeId="d7710351-a949-596e-a540-d8d0d1f628e6"/>
+    <recordType typeId="d9b52e90-66cc-5ee6-bced-8164658824a7" valueTypeId="e7349e27-875c-5fd7-8f9e-d7a7907b37f9"/>
+    <recordManagerType typeId="5c04c737-6e8f-5235-aa59-6d4e079f7b6c" valueTypeId="8393aa14-74f1-576d-a849-9294640f67ed"/>
+  </producedTypes>
+  <name>ЖурналВызововИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал вызовов ИИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="004559d9-5651-52b1-917d-dff4c950783e">
+    <name>Успех</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успех</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <resources uuid="764c8ed3-8106-5182-9fa4-6c0aa10aa7fb">
+    <name>КодСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код состояния</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <resources uuid="8413879c-881e-575b-8e74-75dab8178cac">
+    <name>ДлительностьМс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность, мс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <attributes uuid="de543a0b-6a9a-57eb-8bc7-29c6a532ada9">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="df505117-ae4d-5506-8d1b-a5176ddbf0ef">
+    <name>Обращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обращение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Обращение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fbfd0f54-cbb7-5f58-8732-b8f431a10793">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="971d67b7-4da1-5071-aaaa-95c2e1382b0a">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="81d76220-029c-5312-a203-f81e86af685f">
+    <name>Промпт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промпт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="eae5f2d1-620b-5b66-af1a-57a97a2ab4fc">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="f29c6231-c6ef-5b72-8f72-82bef9baa5e7">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="11734408-d8c9-5898-a4b1-ddffba0dd208">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

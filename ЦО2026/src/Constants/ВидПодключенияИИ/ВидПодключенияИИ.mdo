@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="914e74c0-b792-5585-b160-862165737fb2">
+  <producedTypes>
+    <managerType typeId="611c9526-af65-530b-9c32-f1921b9a097b" valueTypeId="16771a44-a8a9-5e47-95c5-c0ac5a890e9c"/>
+    <valueManagerType typeId="6faee972-be48-5a13-a21e-ee6bbdff4d8c" valueTypeId="4fc6f42f-b6f1-52c0-a9d5-845fd34edcb5"/>
+    <valueKeyType typeId="6bde28a1-ac83-5af0-9a59-0269270d4381" valueTypeId="34f978bb-5c4d-547d-bd98-264c7c13664a"/>
+  </producedTypes>
+  <name>ВидПодключенияИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид подключения ИИ</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВидыПодключенияИИ</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

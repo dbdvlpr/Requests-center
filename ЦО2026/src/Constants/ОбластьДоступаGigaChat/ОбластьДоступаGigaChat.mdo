@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f68c0be-d49b-5f17-ac79-a9f4ea22010e">
+  <producedTypes>
+    <managerType typeId="8b1af073-69b9-5671-8b42-9678874f39df" valueTypeId="4590f5b5-302b-5b2b-b043-ea1041ffc4df"/>
+    <valueManagerType typeId="e7552d68-6017-59e9-ac8e-c4628500a5bb" valueTypeId="dba23d96-aa0e-526d-9d16-74a8ea0135db"/>
+    <valueKeyType typeId="4b9afa91-a418-5e27-8d79-994f31cf3e3e" valueTypeId="ae767a47-b825-5336-a68c-9435a6c03c64"/>
+  </producedTypes>
+  <name>ОбластьДоступаGigaChat</name>
+  <synonym>
+    <key>ru</key>
+    <value>Область доступа GigaChat</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>80</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

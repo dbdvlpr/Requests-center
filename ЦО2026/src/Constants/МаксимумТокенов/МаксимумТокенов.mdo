@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6972624a-e253-57c4-9d16-8221f477bb10">
+  <producedTypes>
+    <managerType typeId="e4cff83a-45bf-5355-b59f-24f2551a9765" valueTypeId="b43a723c-7ded-5520-b7a3-74b1923e8f14"/>
+    <valueManagerType typeId="ca68fac4-16d1-51fc-ab4a-dec80c992e1e" valueTypeId="44a6fc52-719d-54cc-923b-63cd56e89ad4"/>
+    <valueKeyType typeId="99a2a330-0c48-5a56-96cc-315cd8cc7eb4" valueTypeId="7ee18cdd-7066-5a9d-a22e-2c44754279a1"/>
+  </producedTypes>
+  <name>МаксимумТокенов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимум токенов ответа</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

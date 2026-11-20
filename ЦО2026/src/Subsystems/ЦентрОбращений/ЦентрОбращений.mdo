@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39739faf-72ff-50d8-860c-2d44fe265a76">
+  <name>ЦентрОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр обращений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.НачальнаяСтраница</content>
+  <content>DataProcessor.РабочееМестоОператора</content>
+  <content>DataProcessor.ПанельРуководителя</content>
+  <content>DataProcessor.НастройкиПодключения</content>
+  <content>Document.Обращение</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Договоры</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.ТегиКомпетенций</content>
+  <content>Catalog.КатегорииОбращений</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.УчетныеЗаписиПочты</content>
+  <content>InformationRegister.ЖурналВызововИИ</content>
+  <content>InformationRegister.ИсправленияКлассификации</content>
+  <content>Constant.ВидПодключенияИИ</content>
+  <content>Constant.КлючAPI</content>
+  <content>Constant.ИдентификаторКаталога</content>
+  <content>Constant.ИмяМодели</content>
+  <content>Constant.АдресAPI</content>
+  <content>Constant.СхемаАвторизации</content>
+  <content>Constant.ТаймаутСекунд</content>
+  <content>Constant.МаксимумТокенов</content>
+  <content>Constant.Температура</content>
+  <content>Constant.КоличествоПримеров</content>
+  <content>Constant.ОбезличиватьПередОтправкой</content>
+  <content>Constant.ОбластьДоступаGigaChat</content>
+</mdclass:Subsystem>

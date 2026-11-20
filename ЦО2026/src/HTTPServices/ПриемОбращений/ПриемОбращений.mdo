@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5dc4925-da0f-5167-8a30-07926ba4c6fe">
+  <name>ПриемОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием обращений</value>
+  </synonym>
+  <rootURL>appeals</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="aead3383-eee8-57a0-b14a-32ec31cb077a">
+    <name>Создать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать</value>
+    </synonym>
+    <template>/create</template>
+    <methods uuid="7b24b5f0-672c-5ae4-a55a-13ac1ccd5410">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>Создать</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="dafb34a8-144d-5200-959f-3d6350db7640">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <template>/status</template>
+    <methods uuid="ac781d11-5916-57f6-8688-6b9f4a3d99f6">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>Статус</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
