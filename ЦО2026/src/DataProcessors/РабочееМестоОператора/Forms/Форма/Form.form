@@ -2058,7 +2058,7 @@
       </title>
       <id>7</id>
       <valueType>
-        <types>DocumentRef.Обращение</types>
+        <types>DocumentRef.ИОО_Обращение</types>
       </valueType>
       <view>
         <common>true</common>
@@ -2253,7 +2253,7 @@
       </title>
       <id>9</id>
       <valueType>
-        <types>DocumentRef.Обращение</types>
+        <types>DocumentRef.ИОО_Обращение</types>
       </valueType>
       <view>
         <common>true</common>
@@ -2417,7 +2417,7 @@
     </title>
     <id>168</id>
     <valueType>
-      <types>DocumentRef.Обращение</types>
+      <types>DocumentRef.ИОО_Обращение</types>
     </valueType>
     <view>
       <common>true</common>

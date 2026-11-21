@@ -11,7 +11,7 @@
   <content>DataProcessor.РабочееМестоОператора</content>
   <content>DataProcessor.ПанельРуководителя</content>
   <content>DataProcessor.НастройкиПодключения</content>
-  <content>Document.Обращение</content>
+  <content>Document.ИОО_Обращение</content>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Договоры</content>
   <content>Catalog.Сотрудники</content>

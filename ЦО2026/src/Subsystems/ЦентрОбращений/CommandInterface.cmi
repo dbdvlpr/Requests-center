@@ -9,7 +9,7 @@
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Document.Обращение.StandardCommand.OpenList</commands>
+      <commands>Document.ИОО_Обращение.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Договоры.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
@@ -33,7 +33,7 @@
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Document.Обращение.StandardCommand.OpenList</commands>
+      <commands>Document.ИОО_Обращение.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Договоры.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>

@@ -68,7 +68,7 @@
   <catalogs>Catalog.ИОО_ПровайдерыLLM</catalogs>
   <catalogs>Catalog.ИОО_КаналыОбращений</catalogs>
   <catalogs>Catalog.ИОО_ПрофилиLLM</catalogs>
-  <documents>Document.Обращение</documents>
+  <documents>Document.ИОО_Обращение</documents>
   <enums>Enum.ИОО_ИсточникиСообщений</enums>
   <enums>Enum.ИОО_ТипыПараметров</enums>
   <enums>Enum.ИОО_ТипыЗадачLLM</enums>
