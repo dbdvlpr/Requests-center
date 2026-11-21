@@ -24,6 +24,7 @@
   <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ИОО_Обращение.Form.ФормаДокумента</defaultObjectForm>
   <posting>Deny</posting>
   <realTimePosting>Deny</realTimePosting>
   <sequenceFilling>AutoFillOff</sequenceFilling>
@@ -655,4 +656,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="ea20c116-df62-4c74-b8b2-33306a4cef61">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>
