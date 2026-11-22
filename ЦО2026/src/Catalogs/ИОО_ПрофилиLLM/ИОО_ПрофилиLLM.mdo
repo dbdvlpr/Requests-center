@@ -32,6 +32,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИОО_ПрофилиLLM.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИОО_ПрофилиLLM.Form.ФормаСписка</defaultListForm>
   <attributes uuid="d08bece6-78cc-46bf-ab5b-072fb57c534b">
     <name>Провайдер</name>
     <synonym>
@@ -264,4 +266,18 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="5bc246c0-8e10-40b2-be99-de9d48fe115d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профили LLM</value>
+    </synonym>
+  </forms>
+  <forms uuid="a75e891a-c065-4e4d-a1fe-406306d9b1cd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль LLM</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

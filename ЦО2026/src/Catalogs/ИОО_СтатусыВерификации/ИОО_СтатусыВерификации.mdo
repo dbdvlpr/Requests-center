@@ -55,4 +55,20 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИОО_СтатусыВерификации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИОО_СтатусыВерификации.Form.ФормаСписка</defaultListForm>
+  <forms uuid="9b8ee89d-b335-4e68-9b97-5a6d4647e04b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы верификации</value>
+    </synonym>
+  </forms>
+  <forms uuid="f4b2ca8f-d0ea-4139-bc59-cc7dad014200">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус верификации</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

@@ -55,6 +55,8 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИОО_КаналыОбращений.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИОО_КаналыОбращений.Form.ФормаСписка</defaultListForm>
   <attributes uuid="c139c2ac-cd91-4614-8a0d-e4b56dd1f084">
     <name>ВнешнийКод</name>
     <synonym>
@@ -103,4 +105,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="d0e8fffb-e3d2-416a-a3cc-38cfba9ce213">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каналы обращений</value>
+    </synonym>
+  </forms>
+  <forms uuid="592cdfce-5286-43b5-99e2-a639e5d55b4f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал обращения</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

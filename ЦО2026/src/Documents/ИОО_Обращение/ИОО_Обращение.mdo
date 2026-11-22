@@ -25,6 +25,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ИОО_Обращение.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ИОО_Обращение.Form.ФормаСписка</defaultListForm>
   <posting>Deny</posting>
   <realTimePosting>Deny</realTimePosting>
   <sequenceFilling>AutoFillOff</sequenceFilling>
@@ -664,5 +665,19 @@
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ecdcba7d-5228-4033-aeee-135a13ce594f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обращения</value>
+    </synonym>
+  </forms>
+  <forms uuid="c5cc3c06-fdd0-481c-8a34-6f309b542065">
+    <name>ФормаДиалогаСИИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог с ИИ</value>
+    </synonym>
   </forms>
 </mdclass:Document>

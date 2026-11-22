@@ -106,6 +106,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Договоры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Договоры.Form.ФормаСписка</defaultListForm>
   <attributes uuid="9ce57263-e637-5930-bbfa-8dd38a0d56a4">
     <name>Контрагент</name>
     <synonym>
@@ -205,4 +207,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="f8e5fc23-cc84-48d6-b4f7-4bb015f4d3cb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договоры</value>
+    </synonym>
+  </forms>
+  <forms uuid="b9ced057-f1f4-4a8b-9413-a5cdf40b6c40">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

@@ -106,4 +106,20 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИОО_ТегиКомпетенций.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИОО_ТегиКомпетенций.Form.ФормаСписка</defaultListForm>
+  <forms uuid="970aa35c-adcf-4c76-b9a0-980df7ae8618">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Теги компетенций</value>
+    </synonym>
+  </forms>
+  <forms uuid="561dc4bb-405d-4504-a207-018aa1b43aef">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тег компетенций</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

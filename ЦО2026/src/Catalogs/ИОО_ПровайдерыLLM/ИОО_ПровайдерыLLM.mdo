@@ -55,6 +55,8 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИОО_ПровайдерыLLM.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИОО_ПровайдерыLLM.Form.ФормаСписка</defaultListForm>
   <attributes uuid="37f8dd3e-cc49-4dbd-9907-b5ca324fcbc3">
     <name>ФорматПротокола</name>
     <synonym>
@@ -160,4 +162,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="4c21a60d-0be4-4c11-bda4-df0d2b63ddd2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Провайдеры LLM</value>
+    </synonym>
+  </forms>
+  <forms uuid="1f5cfa99-d58d-4809-a02c-60cdf574a8ed">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Провайдер LLM</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

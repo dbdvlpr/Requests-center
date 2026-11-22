@@ -106,6 +106,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УчетныеЗаписиПочты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УчетныеЗаписиПочты.Form.ФормаСписка</defaultListForm>
   <attributes uuid="ea0d56aa-6f54-56a6-ac6a-c547747c6d17">
     <name>АдресПочты</name>
     <synonym>
@@ -268,4 +270,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="89781e63-81fa-428d-a088-38d5aa6df889">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетные записи почты</value>
+    </synonym>
+  </forms>
+  <forms uuid="8a9bbc78-84bc-4be4-82a9-11b541241e58">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись почты</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

@@ -106,6 +106,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Номенклатура.Form.ФормаСписка</defaultListForm>
   <attributes uuid="7760b64b-9ea7-582f-ac1f-eeb9baf6820c">
     <name>Артикул</name>
     <synonym>
@@ -205,4 +207,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="9a229aa6-af4b-4c43-8d53-f7e647344ce9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+  </forms>
+  <forms uuid="96ca5d04-0e8d-4d9d-9d11-ad62f43cf18f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

@@ -62,4 +62,20 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИОО_СпособыОтвета.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИОО_СпособыОтвета.Form.ФормаСписка</defaultListForm>
+  <forms uuid="1c6c4076-051d-4347-8546-6da043309e71">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способы ответа</value>
+    </synonym>
+  </forms>
+  <forms uuid="ac8ea1f0-b6c2-484b-925b-d2b5e657a2b1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ ответа</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

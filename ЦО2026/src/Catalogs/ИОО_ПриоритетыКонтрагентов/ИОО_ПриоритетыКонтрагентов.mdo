@@ -55,6 +55,8 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИОО_ПриоритетыКонтрагентов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИОО_ПриоритетыКонтрагентов.Form.ФормаСписка</defaultListForm>
   <attributes uuid="d8e90e5b-7bb2-417d-aa39-84d989b94aff">
     <name>Ранг</name>
     <synonym>
@@ -73,4 +75,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="e4b27664-d7b0-4fa2-a0e4-5a173a6e221e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритеты контрагентов</value>
+    </synonym>
+  </forms>
+  <forms uuid="ff373a0f-d64a-41f4-a588-9f697c184e75">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет контрагента</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

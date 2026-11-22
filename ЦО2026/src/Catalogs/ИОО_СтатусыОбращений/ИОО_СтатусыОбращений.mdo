@@ -83,6 +83,8 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИОО_СтатусыОбращений.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИОО_СтатусыОбращений.Form.ФормаСписка</defaultListForm>
   <attributes uuid="521f8378-10b0-40f0-af4a-90ffdaaaf4f7">
     <name>Порядок</name>
     <synonym>
@@ -131,4 +133,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="b8befe96-bfde-4759-80fc-7a64859fd86a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы обращений</value>
+    </synonym>
+  </forms>
+  <forms uuid="45dfdfda-dc14-4e6f-b5ea-8ec132077d54">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус обращения</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

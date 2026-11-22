@@ -55,6 +55,8 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИОО_УровниЭмоциональности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИОО_УровниЭмоциональности.Form.ФормаСписка</defaultListForm>
   <attributes uuid="250eb7af-f5b8-4868-bbac-99bac06cdc8b">
     <name>Вес</name>
     <synonym>
@@ -88,4 +90,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="5f2a59d9-a714-4aee-94d4-ae3005848bd5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровни эмоциональности</value>
+    </synonym>
+  </forms>
+  <forms uuid="e78030fd-2915-4d4c-b239-e3276f4f25c8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень эмоциональности</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>

@@ -106,6 +106,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Сотрудники.Form.ФормаСписка</defaultListForm>
   <attributes uuid="42230406-7a42-5855-aeba-d5d6122d100c">
     <name>ЭтоИнженер</name>
     <synonym>
@@ -215,4 +217,18 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="9ecac99f-1c6b-4502-8c76-07111ab84b6d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+  </forms>
+  <forms uuid="95f8972e-92d0-4d21-b4ad-26f9b4d9d811">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>
