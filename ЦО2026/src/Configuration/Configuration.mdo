@@ -34,7 +34,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <interfaceCompatibilityMode>TaxiEnableVersion8_5</interfaceCompatibilityMode>
+  <interfaceCompatibilityMode>Version8_5EnableTaxi</interfaceCompatibilityMode>
   <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
   <compatibilityMode>8.3.25</compatibilityMode>
   <languages uuid="3bcfe8d9-bbff-4be1-937d-84195406c040">
