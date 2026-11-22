@@ -45,7 +45,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.ЦентрОбращений</subsystems>
+  <subsystems>Subsystem.РаботаСОбращениями</subsystems>
+  <subsystems>Subsystem.НастройкаОбращений</subsystems>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ОператорПоддержки</roles>
   <roles>Role.Руководитель</roles>

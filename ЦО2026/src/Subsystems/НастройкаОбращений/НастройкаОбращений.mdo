@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f09f446-6d65-43a2-bc64-bb61aa16c0f2">
+  <name>НастройкаОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Setting</picture>
+  </picture>
+  <content>Catalog.УчетныеЗаписиПочты</content>
+  <content>Catalog.ИОО_ПровайдерыLLM</content>
+  <content>Catalog.ИОО_ПрофилиLLM</content>
+  <content>Catalog.ИОО_СтатусыОбращений</content>
+  <content>Catalog.ИОО_СтатусыВерификации</content>
+  <content>Catalog.ИОО_СпособыОтвета</content>
+  <content>Catalog.ИОО_УровниЭмоциональности</content>
+  <content>Catalog.ИОО_ПриоритетыКонтрагентов</content>
+  <content>Catalog.ИОО_ТегиКомпетенций</content>
+  <content>DataProcessor.НастройкиПодключения</content>
+</mdclass:Subsystem>
