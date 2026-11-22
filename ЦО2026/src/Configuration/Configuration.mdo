@@ -27,6 +27,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <clientApplicationTheme>Light</clientApplicationTheme>
   <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
