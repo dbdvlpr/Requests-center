@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89b1dab1-a889-493c-a371-8eba91d71908">
+  <producedTypes>
+    <refType typeId="06776ae0-e101-405a-b630-11eeb710620e" valueTypeId="cef256e8-15fe-4a7d-a6a9-362e8134c3da"/>
+    <listType typeId="d2bac95f-1f79-48b8-89ae-394c7ff546f1" valueTypeId="ef7a261d-9bde-474b-80e7-0fb3e6387ea8"/>
+    <managerType typeId="a549787b-a64f-492d-bbcb-bf68cb4b295d" valueTypeId="8b8af9f2-3bf8-479f-9d62-3ad82453535a"/>
+  </producedTypes>
+  <name>ИОО_СтатусыИтерацийЧерновиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИОО статусы итераций черновиков</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6ec0841d-ba9e-4f7f-9062-85451fe8e794">
+    <name>Предложен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предложен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0868fcfe-1050-454f-a202-d49bed5204ea">
+    <name>ВыбранБезПравок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбран без правок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b41f6370-61f5-42d8-baa1-f0c915ef2e63">
+    <name>ВыбранСПравками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбран с правками</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ab9d152-c8fc-4304-8ea4-619511488678">
+    <name>Отклонён</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонён</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4bb51396-1b95-4a7d-b681-84ff967ad9b5">
+    <name>Заменён</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменён</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -460,7 +460,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ПриоритетКонтрагента</segments>
+              <segments>Объект.УровеньКонтрагента</segments>
             </dataPath>
             <extendedTooltip>
               <name>ПриоритетКонтрагентаРасширеннаяПодсказка</name>
@@ -830,7 +830,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.СрочностьТекста</segments>
+              <segments>Объект.ОценкаПриоритета</segments>
             </dataPath>
             <extendedTooltip>
               <name>СрочностьТекстаРасширеннаяПодсказка</name>
@@ -956,7 +956,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ОценкаНазначения</segments>
+              <segments>Объект.УдалитьОценкаНазначения</segments>
             </dataPath>
             <extendedTooltip>
               <name>ОценкаНазначенияРасширеннаяПодсказка</name>
@@ -1303,7 +1303,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ПояснениеПриоритета</segments>
+          <segments>Объект.УдалитьПояснениеПриоритета</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПояснениеПриоритетаРасширеннаяПодсказка</name>
@@ -1388,7 +1388,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.АдресОтвета</segments>
+            <segments>Объект.УдалитьАдресОтвета</segments>
           </dataPath>
           <extendedTooltip>
             <name>АдресОтветаРасширеннаяПодсказка</name>
@@ -1535,7 +1535,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ПриоритетИИ</segments>
+              <segments>Объект.УдалитьПриоритетИИ</segments>
             </dataPath>
             <extendedTooltip>
               <name>ПриоритетИИРасширеннаяПодсказка</name>
@@ -1578,7 +1578,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ИсполнительИИ</segments>
+              <segments>Объект.УдалитьИсполнительИИ</segments>
             </dataPath>
             <extendedTooltip>
               <name>ИсполнительИИРасширеннаяПодсказка</name>
@@ -1663,7 +1663,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ВнешнийИдентификатор</segments>
+              <segments>Объект.УдалитьВнешнийИдентификатор</segments>
             </dataPath>
             <extendedTooltip>
               <name>ВнешнийИдентификаторРасширеннаяПодсказка</name>
@@ -1738,7 +1738,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.СрочностьИИ</segments>
+              <segments>Объект.УдалитьСрочностьИИ</segments>
             </dataPath>
             <extendedTooltip>
               <name>СрочностьИИРасширеннаяПодсказка</name>
@@ -1781,7 +1781,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.КатегорияИИ</segments>
+              <segments>Объект.УдалитьКатегорияИИ</segments>
             </dataPath>
             <extendedTooltip>
               <name>КатегорияИИРасширеннаяПодсказка</name>
@@ -1823,9 +1823,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.УровеньЭмоциональностиИИ</segments>
-            </dataPath>
             <extendedTooltip>
               <name>УровеньЭмоциональностиИИРасширеннаяПодсказка</name>
               <id>63</id>
@@ -1841,22 +1838,11 @@
               <id>62</id>
               <autoFill>true</autoFill>
             </contextMenu>
-            <type>InputField</type>
             <readOnly>true</readOnly>
             <editMode>EnterOnInput</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <extendedEditMultipleValues>true</extendedEditMultipleValues>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-              <textSize>Normal</textSize>
-            </extInfo>
           </items>
           <items xsi:type="form:FormField">
             <name>СтатусЧерновика</name>
@@ -2013,7 +1999,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЧерновикОтвета</segments>
+            <segments>Объект.УдалитьЧерновикОтвета</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЧерновикОтветаРасширеннаяПодсказка</name>
@@ -2129,7 +2115,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ПояснениеНазначения</segments>
+            <segments>Объект.УдалитьПояснениеНазначения</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПояснениеНазначенияРасширеннаяПодсказка</name>
@@ -2170,7 +2156,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ХешТекста</segments>
+            <segments>Объект.УдалитьХешТекста</segments>
           </dataPath>
           <extendedTooltip>
             <name>ХешТекстаРасширеннаяПодсказка</name>

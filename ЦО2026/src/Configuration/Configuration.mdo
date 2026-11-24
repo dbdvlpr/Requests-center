@@ -34,7 +34,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <interfaceCompatibilityMode>Version8_5EnableTaxi</interfaceCompatibilityMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_5</interfaceCompatibilityMode>
   <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
   <compatibilityMode>8.3.25</compatibilityMode>
   <languages uuid="3bcfe8d9-bbff-4be1-937d-84195406c040">
@@ -58,11 +58,11 @@
   <scheduledJobs>ScheduledJob.ПолучениеПочты</scheduledJobs>
   <constants>Constant.АктивныйПрофильLLM</constants>
   <catalogs>Catalog.Контрагенты</catalogs>
-  <catalogs>Catalog.Договоры</catalogs>
-  <catalogs>Catalog.ИОО_ТегиКомпетенций</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.ИОО_КатегорииОбращений</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ИОО_ТегиКомпетенций</catalogs>
+  <catalogs>Catalog.ИОО_КатегорииОбращений</catalogs>
   <catalogs>Catalog.УчетныеЗаписиПочты</catalogs>
   <catalogs>Catalog.ИОО_СпособыОтвета</catalogs>
   <catalogs>Catalog.ИОО_СтатусыОбращений</catalogs>
@@ -77,10 +77,18 @@
   <enums>Enum.ИОО_ТипыПараметров</enums>
   <enums>Enum.ИОО_ТипыЗадачLLM</enums>
   <enums>Enum.ИОО_СтатусыЧерновикаОтвета</enums>
+  <enums>Enum.ИОО_СтатусыКлассификации</enums>
+  <enums>Enum.ИОО_УчастникиДиалога</enums>
+  <enums>Enum.ИОО_СтатусыИтерацийКлассификации</enums>
+  <enums>Enum.ИОО_СтатусыИтерацийЧерновиков</enums>
   <dataProcessors>DataProcessor.НачальнаяСтраница</dataProcessors>
   <dataProcessors>DataProcessor.РабочееМестоОператора</dataProcessors>
   <dataProcessors>DataProcessor.ПанельРуководителя</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПодключения</dataProcessors>
-  <informationRegisters>InformationRegister.ЖурналВызововИИ</informationRegisters>
+  <informationRegisters>InformationRegister.ИОО_ЖурналВызововИИ</informationRegisters>
   <informationRegisters>InformationRegister.ИсправленияКлассификации</informationRegisters>
+  <informationRegisters>InformationRegister.ИОО_СообщенияЧатаИИ</informationRegisters>
+  <informationRegisters>InformationRegister.ИОО_ПулЧерновиковОтветовИИ</informationRegisters>
+  <informationRegisters>InformationRegister.ИОО_СоответствиеРезультатовКлассификации</informationRegisters>
+  <informationRegisters>InformationRegister.ИОО_СоответствиеЧерновиковОтветов</informationRegisters>
 </mdclass:Configuration>

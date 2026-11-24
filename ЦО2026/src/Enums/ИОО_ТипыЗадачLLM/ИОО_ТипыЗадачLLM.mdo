@@ -26,18 +26,18 @@
       <value>Приоритизация</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="d1009021-3b1e-480d-9018-15f5b5af81dc">
-    <name>ЧерновикОтвета</name>
-    <synonym>
-      <key>ru</key>
-      <value>Черновик ответа</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="552d2faa-eca0-418c-8ec1-4cac0b769c41">
     <name>Обезличивание</name>
     <synonym>
       <key>ru</key>
       <value>Обезличивание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1009021-3b1e-480d-9018-15f5b5af81dc">
+    <name>ЧерновикОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик ответа</value>
     </synonym>
   </enumValues>
   <enumValues uuid="a407cbfe-68d4-42bc-839b-5dc3878cfe10">

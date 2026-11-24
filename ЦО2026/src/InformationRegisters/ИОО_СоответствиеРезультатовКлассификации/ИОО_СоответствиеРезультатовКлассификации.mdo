@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cacbb7b5-aa10-42cf-a831-490c9182f192">
+  <producedTypes>
+    <selectionType typeId="f58a69ba-cbf8-4232-b829-077758b558ff" valueTypeId="87cf9cbc-df4c-446c-bcdd-611440945f79"/>
+    <listType typeId="8c6bc6f5-03f2-4a09-898e-cf545fdde6e8" valueTypeId="b5f96756-fcb1-4ba1-9c87-cb970333c516"/>
+    <managerType typeId="11d02b60-ed5f-4eb3-9a3c-d908b02e3054" valueTypeId="149d6572-730e-40b8-8942-c4604df2cb04"/>
+    <recordSetType typeId="86d00f4a-b0d6-4a97-a87d-4101451031c7" valueTypeId="1f0c0c8c-1a32-4566-ba64-1c7d0d60a0ce"/>
+    <recordKeyType typeId="26aa596d-a45a-40d8-9027-1d57331626f3" valueTypeId="a5b8c334-d337-4d55-ad67-68ebd1397c82"/>
+    <recordType typeId="4a5446c6-43fb-46c3-b654-dfd6c31c5481" valueTypeId="1939a490-2339-4df8-8679-8b43824f7ae9"/>
+    <recordManagerType typeId="2a07e13e-f65e-40f5-94aa-97b5c394e01a" valueTypeId="1013c88d-6fe6-4793-af85-9723e63020af"/>
+  </producedTypes>
+  <name>ИОО_СоответствиеРезультатовКлассификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИОО соответствие результатов классификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="737aea26-43db-48f2-8f4c-ae4ca35e4f47">
+    <name>ПриоритетИИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет ИИ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b9e44f65-dafa-4913-8eca-3421f1d6edbc">
+    <name>ПриоритетИтог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет итог</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9b856960-5b88-47af-8ec9-2258b229dfbc">
+    <name>СовпалаКатегория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совпала категория</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1d923a6b-8ca2-4230-89c3-334be19294d6">
+    <name>СовпалПриоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совпал приоритет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d2cf78d1-9c4b-4331-aa18-c57e393f0a6c">
+    <name>СовпалаЭмоция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совпала эмоция</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1846140a-6d0b-45ce-9e4f-591ddfbfb5c1">
+    <name>СовпалоВсё</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совпало всё</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="1261e2d5-8657-412b-829b-5fb7248ba378">
+    <name>ДатаВызова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вызова</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4cd204da-b17a-4834-a2bb-9f0fa65b98ea">
+    <name>СтатусИтерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус итерации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИОО_СтатусыИтерацийКлассификации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f13bba16-86b9-4f20-99a4-87d51a6c8570">
+    <name>КатегорияИИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория ИИ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИОО_КатегорииОбращений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="15ae3ec6-48b9-4d15-8b19-30db6bab5c80">
+    <name>ЭмоцияИИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эмоция ИИ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИОО_УровниЭмоциональности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b50f6846-51d9-4dc9-b51c-51af1a5a6efc">
+    <name>Обращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обращение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИОО_Обращение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9d03ac76-5cfd-44e8-b442-9ce4bdd880c6">
+    <name>НомерИтерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер итерации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

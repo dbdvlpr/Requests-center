@@ -164,7 +164,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ЖурналВызововИИ</name>
+		<name>InformationRegister.ИОО_ЖурналВызововИИ</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

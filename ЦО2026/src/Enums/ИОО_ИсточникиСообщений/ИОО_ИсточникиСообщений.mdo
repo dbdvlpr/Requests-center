@@ -12,13 +12,6 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="5735513b-825f-43a6-850e-56a4bb61f027">
-    <name>HTTPСервис</name>
-    <synonym>
-      <key>ru</key>
-      <value>HTTP-сервис</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="4b98c9c4-6062-403d-ac9d-d35d866d266b">
     <name>ПочтовыйЯщик</name>
     <synonym>
@@ -31,6 +24,13 @@
     <synonym>
       <key>ru</key>
       <value>Ручной ввод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5735513b-825f-43a6-850e-56a4bb61f027">
+    <name>HTTPСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTTP-сервис</value>
     </synonym>
   </enumValues>
   <enumValues uuid="63944df0-7d1a-4bf0-aa06-9e9369eb1095">

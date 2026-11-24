@@ -108,6 +108,24 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ИОО_КатегорииОбращений.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ИОО_КатегорииОбращений.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="b701fa5f-70f1-5cfd-8e42-559b192fb470">
+    <name>Подсказка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсказка классификатору</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="2a6920d0-e9b5-58db-b253-21ab84044dbe">
     <name>ОсновнойТег</name>
     <synonym>
@@ -135,24 +153,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:BooleanValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="b701fa5f-70f1-5cfd-8e42-559b192fb470">
-    <name>Подсказка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подсказка классификатору</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>300</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

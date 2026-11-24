@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdbe0223-3da4-47b2-a330-d161e4a62343">
+  <producedTypes>
+    <selectionType typeId="de27bc73-8bce-400f-9be8-1cb66db0ebc2" valueTypeId="3ba98dc2-ce10-437a-a1db-a7f5066c0c80"/>
+    <listType typeId="b9079c30-8b0c-4109-9bb2-71a90819c2b7" valueTypeId="f5f39156-a7ea-4548-b46b-48331f68d6c4"/>
+    <managerType typeId="8cf38270-0657-4254-985d-cb69a1332dd4" valueTypeId="0580659d-5bf9-46c5-9278-50cf499a834d"/>
+    <recordSetType typeId="3bdfb5f0-6616-4dfa-a65f-1eca7bdaa8ac" valueTypeId="099d9303-4e19-4173-bac8-376d705365e9"/>
+    <recordKeyType typeId="414f0f02-a707-4543-acf6-a4e75b460d06" valueTypeId="075b6d50-4287-4dc9-ad55-3bad5fe14f2d"/>
+    <recordType typeId="ce2add15-bf8f-40c9-8a8f-53719300adad" valueTypeId="5fa8614d-86e7-47a4-b9e3-761c09425c95"/>
+    <recordManagerType typeId="8f62797b-af98-4e24-966a-63c239d13830" valueTypeId="64e5ed65-321f-4b45-b180-57722d2ac31d"/>
+  </producedTypes>
+  <name>ИОО_СоответствиеЧерновиковОтветов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИОО соответствие черновиков ответов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="7e081ef6-df3c-41fc-882b-d3a54433017f">
+    <name>Обращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обращение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИОО_Обращение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7dff4403-34d1-483a-ab8b-ff55c45d87e9">
+    <name>НомерИтерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер итерации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

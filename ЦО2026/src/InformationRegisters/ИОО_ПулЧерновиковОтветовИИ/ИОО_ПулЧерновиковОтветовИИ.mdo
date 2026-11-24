@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c41757d-0719-4dbb-a7dd-fdb8f8912900">
+  <producedTypes>
+    <selectionType typeId="078bd407-e639-4998-8373-b95b9036c7bd" valueTypeId="ea647ea2-f5e5-47a3-82b5-af2e4919d077"/>
+    <listType typeId="ef511789-9497-4465-ae30-313745ae6c9d" valueTypeId="a7098f3f-be25-437b-aedb-e2764ee02552"/>
+    <managerType typeId="40072e4e-6732-4d7d-95f1-8e22a140f758" valueTypeId="4c1512f6-4953-44f6-bd78-2ffa154cb87a"/>
+    <recordSetType typeId="e1bf5b6d-c33c-4248-8fb5-d0d39b11fcf1" valueTypeId="4fbfc32f-5ee4-4475-bf4f-f4782d9a2587"/>
+    <recordKeyType typeId="2ea04eee-19e0-40ec-afbe-5bdf71878b3d" valueTypeId="e2b2165f-2054-4c48-99c1-0e1d4a0d8c0d"/>
+    <recordType typeId="8d945017-009d-4e91-a605-e15457399ef9" valueTypeId="52459b05-05a3-4d2f-9724-7927d0e9d8bb"/>
+    <recordManagerType typeId="ab8e6a3f-7fee-40e5-b15e-92571f415db8" valueTypeId="2c568df9-414f-42a5-b94b-6e043bf34947"/>
+  </producedTypes>
+  <name>ИОО_ПулЧерновиковОтветовИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИОО пул черновиков ответов ИИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3d7d656a-b2d8-4120-a6cc-76e91be4f2f4">
+    <name>ДатаГенерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата генерации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e241fea3-c1e6-40da-8c57-ffb8a9f63103">
+    <name>ТекстОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ответа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <attributes uuid="5071eafe-17bb-4053-8dd1-18d119da1c29">
+    <name>МодельИИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель ИИ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="26decd6c-1672-429a-8956-3caa7551f31a">
+    <name>Обращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обращение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИОО_Обращение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6bd7ec51-fd7a-4baa-a0d4-5c67907471f8">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

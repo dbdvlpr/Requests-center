@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26efa6e5-6451-49c9-ab51-5d15f5118bf0">
+  <producedTypes>
+    <refType typeId="281992f7-173e-4c3c-8308-d4a14594e2d1" valueTypeId="9865808b-aff0-4524-a287-d4c810e989cc"/>
+    <listType typeId="2d7898bd-3c99-48b0-a59b-bab2b34b5cf1" valueTypeId="246e94fa-eccb-4784-b142-b91528bc9ec7"/>
+    <managerType typeId="a6ad86fb-dd3d-445d-9879-39ce75458c41" valueTypeId="7a6a3a19-c9b0-49a5-be1b-c6d91b4051e4"/>
+  </producedTypes>
+  <name>ИОО_УчастникиДиалога</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИОО участники диалога</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9aa5dcc5-a1e4-48d1-86e4-3b501abb230b">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ba4ee67-3c6d-416f-86c8-fc09dedb0327">
+    <name>Нейросеть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нейросеть</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
