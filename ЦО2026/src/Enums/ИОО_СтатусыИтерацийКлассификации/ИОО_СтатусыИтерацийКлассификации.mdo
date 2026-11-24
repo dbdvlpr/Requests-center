@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ae6e72a-09f1-454c-a358-473a405726d2">
+  <producedTypes>
+    <refType typeId="ff001ee3-48d3-4555-9ca6-94a7f5b33bc8" valueTypeId="1de6c6ac-2e6c-4bb9-a425-726d140929e0"/>
+    <listType typeId="f1c18a42-045d-4487-aab6-cfb98ba865f2" valueTypeId="194c6e6d-feaa-4d36-882e-6a7381cf16c6"/>
+    <managerType typeId="1b71b26b-5420-4867-a994-d87f9c1e3bca" valueTypeId="6a8c1f69-1c2b-4d0d-94aa-1ab5f759e741"/>
+  </producedTypes>
+  <name>ИОО_СтатусыИтерацийКлассификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИОО статусы итераций классификации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="722ea0e3-1f1a-48f8-b90f-ebf6b41de9fe">
+    <name>Предложена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предложена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85709963-4943-466d-9471-66790cf52131">
+    <name>Подтверждена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19ff9be4-86ea-4a44-8b81-8ba6d6e60911">
+    <name>Исправлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d92f4a84-4265-464d-a77b-5cc89ef910d6">
+    <name>Заменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2085a157-db2e-4fba-98f9-031971bbc749">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

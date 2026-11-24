@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4708049d-8e8f-455e-b96b-cc7e31110f15">
+  <producedTypes>
+    <refType typeId="f0f62dfe-91b9-4b00-8776-d0c351abdd84" valueTypeId="7fdd89e8-9de7-4a30-931d-5727c2efdacc"/>
+    <listType typeId="909d4b88-e467-4b59-90ba-00244c20cbd9" valueTypeId="3225cfd1-2038-4bf7-a755-258a2040f659"/>
+    <managerType typeId="1c17e6bf-4727-40e2-a15d-0740a56219ec" valueTypeId="5c9d4bff-ed7f-4f46-83ee-237044f99fec"/>
+  </producedTypes>
+  <name>ИОО_СтатусыКлассификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИОО статусы классификации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b69b2a9c-1121-49ca-bfd4-52056fcc9c96">
+    <name>НеНачата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не начата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ffe4d97-b808-4b88-98f6-09f8a89f1c94">
+    <name>ВПроцессе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В процессе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f375c07-b76c-4e28-b8e4-bae3dc3866b3">
+    <name>Завершена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

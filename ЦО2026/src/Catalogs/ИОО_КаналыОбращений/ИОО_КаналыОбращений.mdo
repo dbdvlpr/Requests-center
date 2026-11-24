@@ -57,6 +57,21 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ИОО_КаналыОбращений.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ИОО_КаналыОбращений.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="828f62ef-b9bc-448f-91ba-a62b5301c5ac">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="c139c2ac-cd91-4614-8a0d-e4b56dd1f084">
     <name>ВнешнийКод</name>
     <synonym>
@@ -68,21 +83,6 @@
       <stringQualifiers>
         <length>50</length>
       </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="828f62ef-b9bc-448f-91ba-a62b5301c5ac">
-    <name>Активен</name>
-    <synonym>
-      <key>ru</key>
-      <value>Активен</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

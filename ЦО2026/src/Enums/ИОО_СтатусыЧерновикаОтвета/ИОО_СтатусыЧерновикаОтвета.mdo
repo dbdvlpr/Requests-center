@@ -26,18 +26,18 @@
       <value>Сформирован</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="bc63086f-0482-49cc-a866-d0b6c5156a25">
-    <name>Проверен</name>
-    <synonym>
-      <key>ru</key>
-      <value>Проверен</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="11e7df82-6fde-4d98-92df-b3d9e8f2f031">
     <name>Отправлен</name>
     <synonym>
       <key>ru</key>
       <value>Отправлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc63086f-0482-49cc-a866-d0b6c5156a25">
+    <name>Проверен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверен</value>
     </synonym>
   </enumValues>
   <enumValues uuid="bde36d0e-02ee-4d6d-a370-99dd8ddb860b">

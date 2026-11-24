@@ -9,10 +9,10 @@
     <recordType typeId="d9b52e90-66cc-5ee6-bced-8164658824a7" valueTypeId="e7349e27-875c-5fd7-8f9e-d7a7907b37f9"/>
     <recordManagerType typeId="5c04c737-6e8f-5235-aa59-6d4e079f7b6c" valueTypeId="8393aa14-74f1-576d-a849-9294640f67ed"/>
   </producedTypes>
-  <name>ЖурналВызововИИ</name>
+  <name>ИОО_ЖурналВызововИИ</name>
   <synonym>
     <key>ru</key>
-    <value>Журнал вызовов ИИ</value>
+    <value>ИОО журнал вызовов ИИ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

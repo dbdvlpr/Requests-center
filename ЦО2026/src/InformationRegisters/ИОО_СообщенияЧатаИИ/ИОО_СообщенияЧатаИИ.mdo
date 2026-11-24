@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f6c7cb7-1b59-4f23-84ea-87dfbb1d8d50">
+  <producedTypes>
+    <selectionType typeId="164dd405-62ca-4e3b-a1f2-e606bff36802" valueTypeId="2f028e64-ff16-4266-b38d-781f3a8296cd"/>
+    <listType typeId="c22876b0-552f-4645-9e8c-1d41e2011992" valueTypeId="dff2107e-c140-4409-a9cc-e93cfbb53921"/>
+    <managerType typeId="ca5975a5-4dc9-4aea-b91e-fa49d0b750c1" valueTypeId="10ba4a6c-9898-437d-9910-2a91fa7a831a"/>
+    <recordSetType typeId="e2a3be60-ea2e-4f2c-a68b-b23e75305d3d" valueTypeId="74588cb3-1fe2-408f-9c24-97f264d7f235"/>
+    <recordKeyType typeId="9fe1e220-e964-46b4-9f14-11f8a29f6463" valueTypeId="59ec9347-2154-4863-abba-ca7ac1b19ce1"/>
+    <recordType typeId="eb6fcafe-35cd-443e-b8ff-b5d4c4f33e8e" valueTypeId="e55b5dc8-ceda-4df7-ba4e-502e01e72a16"/>
+    <recordManagerType typeId="84215ed4-64b9-47a4-9a6b-5d33962a81dc" valueTypeId="cebb79f5-6eb4-40e3-98a6-2dc2cfd4e1c4"/>
+  </producedTypes>
+  <name>ИОО_СообщенияЧатаИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения чата ИИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Сообщение</value>
+  </recordPresentation>
+  <resources uuid="67fcb761-e13a-4d68-8217-5ae754d6d274">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="7430d5af-3ac3-4467-9edb-1f632b1e6392">
+    <name>МодельИИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель ИИ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fbe4fd3b-0308-4a14-9f61-c4ebe449d115">
+    <name>УчастникДиалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник диалога</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИОО_УчастникиДиалога</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="49ae1e89-9c52-4f5f-9d16-6fdaac0cac7d">
+    <name>Обращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обращение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИОО_Обращение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d9157050-cd9a-4c35-a30c-6f5584ff19fc">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a46ce4c4-5a14-43c5-bea6-ee6b60e20e72">
+    <name>ДатаСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата сообщения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

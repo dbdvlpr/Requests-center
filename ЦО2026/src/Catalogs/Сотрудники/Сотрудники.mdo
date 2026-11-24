@@ -108,36 +108,6 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Сотрудники.Form.ФормаСписка</defaultListForm>
-  <attributes uuid="42230406-7a42-5855-aeba-d5d6122d100c">
-    <name>ЭтоИнженер</name>
-    <synonym>
-      <key>ru</key>
-      <value>Это инженер</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:BooleanValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="52a47929-bd50-553e-b418-0669093ef5d7">
-    <name>Доступен</name>
-    <synonym>
-      <key>ru</key>
-      <value>Доступен</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:BooleanValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="d2da0c42-7910-5132-8dd6-33f9d91978a6">
     <name>ЭлектроннаяПочта</name>
     <synonym>
@@ -174,15 +144,45 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="42230406-7a42-5855-aeba-d5d6122d100c">
+    <name>ЭтоИнженер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это инженер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="52a47929-bd50-553e-b418-0669093ef5d7">
+    <name>Доступен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="23c2aa59-7ffb-50e9-812d-de530c02f0f3">
     <producedTypes>
       <objectType typeId="e532cec5-2a00-506f-b6a6-487fcaac7809" valueTypeId="52e12261-b2a1-528c-b62f-fe6e26bd8925"/>
       <rowType typeId="bb14a13f-e9ac-52f5-871d-a568e5cb589f" valueTypeId="e5a15209-3d6c-597b-a91e-776cc43881e0"/>
     </producedTypes>
-    <name>Компетенции</name>
+    <name>ИОО_Компетенции</name>
     <synonym>
       <key>ru</key>
-      <value>Компетенции</value>
+      <value>ИОО компетенции</value>
     </synonym>
     <attributes uuid="27936848-e51f-5a2b-a6b1-bee18c4261fa">
       <name>Тег</name>
