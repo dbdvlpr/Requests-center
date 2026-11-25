@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41617fb3-8b4a-4a45-bde2-dba7a8fbbc28">
+  <producedTypes>
+    <refType typeId="bb4907fa-fa09-430e-af79-4f2ce3b96ad3" valueTypeId="e3585c62-54a9-4885-961b-b105147746d7"/>
+    <listType typeId="5f90c6ef-0f2e-4638-9619-f33b08c2de72" valueTypeId="ae76eaf7-f06b-4ec2-a263-0707bd0514c6"/>
+    <managerType typeId="9f11ee8d-915c-45af-9093-cb607ccfb0c7" valueTypeId="9a82720a-e62d-4844-84a2-0f82c4b48344"/>
+  </producedTypes>
+  <name>ИОО_ТипыЗначенийНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы значений настроек</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="86479f2f-106e-4fb5-a33a-6ea387304c47">
+    <name>Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="267475f6-dc76-48e2-9243-8b11a116e0bc">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a689f76a-2a40-47c4-a01d-0c96e265663e">
+    <name>Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Булево</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31ab1cdd-a404-4a4c-ac8c-e83108816771">
+    <name>JSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>JSON</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

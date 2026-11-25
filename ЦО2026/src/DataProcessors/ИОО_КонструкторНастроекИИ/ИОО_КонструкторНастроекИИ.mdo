@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70be79d9-1181-4b88-bebe-f4551a122952">
+  <producedTypes>
+    <objectType typeId="27919c0b-8fc9-4d6f-8082-7913ada1cfe7" valueTypeId="47832446-1fef-4dd6-a812-d4aa88a18a6c"/>
+    <managerType typeId="8e42e56d-17c0-4d5d-b6df-f7d22f7b89c4" valueTypeId="43e6b9bd-3e61-4a19-8b93-a9c7cfe75bd8"/>
+  </producedTypes>
+  <name>ИОО_КонструкторНастроекИИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор настроек ИИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИОО_КонструкторНастроекИИ.Form.Форма</defaultForm>
+  <forms uuid="995ace59-644b-4743-9932-2fc8de516db5">
+    <name>Форма</name>
+  </forms>
+</mdclass:DataProcessor>

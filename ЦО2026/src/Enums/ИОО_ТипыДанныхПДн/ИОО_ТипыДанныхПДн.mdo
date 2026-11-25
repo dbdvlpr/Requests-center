@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a947ca37-ac0d-44ac-94a1-5907f9a6299f">
+  <producedTypes>
+    <refType typeId="f114ac24-0f23-408f-a6b3-07d35749b94d" valueTypeId="29f73016-b08e-4379-9cc7-cc3292b8f06a"/>
+    <listType typeId="dfd39c0e-5ffc-42a3-814f-d4d93ac3ce2d" valueTypeId="122cadfa-9159-45ff-b464-14d387e94d59"/>
+    <managerType typeId="de97b16e-6fef-476d-a845-25523b74e55b" valueTypeId="ca3b395f-53d5-48d8-ada2-6929407a2147"/>
+  </producedTypes>
+  <name>ИОО_ТипыДанныхПДн</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы данных ПДн</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6e394203-5d2e-4283-8a31-df3c86060a9b">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9596aa2c-272e-496d-af75-ca5bf11c64dd">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c816c8f-0037-4b70-ba96-b3e09de85428">
+    <name>Почта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d30595f3-421e-4669-972d-c0c0579c5f16">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a8f1919-6849-457a-adc8-d08ed8c5c85f">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8d13ce4-7dad-489b-9252-20fd40118b97">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f7626d5-c2c9-4c48-b9bb-016370e6b1a9">
+    <name>НомерДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер договора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd78f2ea-9ad5-4dcf-aca7-c05b9d37481f">
+    <name>НомерСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер счета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03a3b435-cf48-4c4b-956c-ec30981e940a">
+    <name>БанковскаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковская карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5bdb76d6-a83c-452e-b4bf-10aadf6a50d7">
+    <name>СНИЛС</name>
+    <synonym>
+      <key>ru</key>
+      <value>СНИЛС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c658f0f-45e7-4f71-bfc8-0999223b6b29">
+    <name>Паспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13cab273-4e80-463c-8d3b-c6fdf4694a43">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33901141-9797-46e0-8859-560135fac4df">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8e1eea2-346f-4d8d-bfee-cd52e14a683a">
+  <producedTypes>
+    <refType typeId="37505dc1-6939-4437-a41e-ca9b2e80dbdc" valueTypeId="738b4c44-5d66-46da-91e4-8dc3e06820c4"/>
+    <listType typeId="0b391dae-a3dd-4f39-90f3-4f8879138294" valueTypeId="7814b708-c092-4c34-81d3-3456d57f0dcf"/>
+    <managerType typeId="f5f96bcc-e491-4918-8c47-760404fabd08" valueTypeId="9b7a53ef-754f-4bb1-af90-80f10b3dffb8"/>
+  </producedTypes>
+  <name>ИОО_РежимыОбезличивания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы обезличивания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7579a8cd-c63c-4aaa-98c4-d7f69ed562da">
+    <name>Выключено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выключено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f139b7a6-6bbd-47e1-b9a4-a41adefea151">
+    <name>Маскировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маскировка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1cbd539-5a0a-4ad2-b158-0ccc90df7ec9">
+    <name>Токенизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токенизация</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -664,40 +664,6 @@
             <textSize>Normal</textSize>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>ОбезличиватьПередОтправкой</name>
-          <id>58</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ОбезличиватьПередОтправкой</segments>
-          </dataPath>
-          <titleLocation>Right</titleLocation>
-          <extendedTooltip>
-            <name>ОбезличиватьПередОтправкойРасширеннаяПодсказка</name>
-            <id>60</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ОбезличиватьПередОтправкойКонтекстноеМеню</name>
-            <id>59</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>CheckBoxField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1179,23 +1145,6 @@
         <precision>10</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ОбезличиватьПередОтправкой</name>
-    <title>
-      <key>ru</key>
-      <value>Обезличивать обращение перед отправкой</value>
-    </title>
-    <id>61</id>
-    <valueType>
-      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>

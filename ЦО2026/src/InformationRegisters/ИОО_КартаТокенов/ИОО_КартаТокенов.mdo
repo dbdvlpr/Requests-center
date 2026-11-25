@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ec21c19-d1fd-4e07-9d1a-9734953744f6">
+  <producedTypes>
+    <selectionType typeId="cfa062b5-776c-4786-aa49-b446ecf4c22a" valueTypeId="b696a4b1-87d7-4c4e-b151-5684bda733a8"/>
+    <listType typeId="320f5e01-9622-4f33-9409-877c74de8480" valueTypeId="e850137e-df4e-4418-a4a0-a3f667a7bbaa"/>
+    <managerType typeId="e64957ae-3bff-4798-8a12-e79a561cbbf8" valueTypeId="be2c65d7-83d7-4fa8-9670-dca68d09483d"/>
+    <recordSetType typeId="1ab6d268-988f-46af-b426-41aa5d312997" valueTypeId="38dea067-8cec-4523-b6c5-0bf2edd4642c"/>
+    <recordKeyType typeId="51d63012-0028-470e-9997-6379b6c237c3" valueTypeId="135f94eb-7b21-4e48-9e5c-909622558d5d"/>
+    <recordType typeId="82e7a675-f622-4ffd-9e67-527a7dea8bc5" valueTypeId="43c0fe7c-a451-4676-9144-93cda4bf4e93"/>
+    <recordManagerType typeId="f0c6b298-6260-4704-a4ab-edc717b7a7e4" valueTypeId="fc02f645-ab32-4a7e-b1e7-4c9d7fb2e3c2"/>
+  </producedTypes>
+  <name>ИОО_КартаТокенов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карта токенов обезличивания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись карты токенов</value>
+  </recordPresentation>
+  <resources uuid="6da11506-e0a0-419d-9956-3d2ce53fbc4a">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e0f8f684-3066-4710-8300-0097a3714f53">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1e38de78-587f-47eb-87cb-cfd1dc958f58">
+    <name>ТипДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип данных</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИОО_ТипыДанныхПДн</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="32eabc20-2ca1-4dd9-a750-2ae91948e2dd">
+    <name>Обращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обращение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИОО_Обращение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="379f0600-db26-4c96-9aad-a768a8404a27">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

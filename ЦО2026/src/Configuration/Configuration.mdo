@@ -54,6 +54,7 @@
   <commonModules>CommonModule.ОбработкаОбращений</commonModules>
   <commonModules>CommonModule.РаботаСПочтой</commonModules>
   <commonModules>CommonModule.ДемонстрационныеДанные</commonModules>
+  <commonModules>CommonModule.Обезличивание</commonModules>
   <httpServices>HTTPService.ПриемОбращений</httpServices>
   <scheduledJobs>ScheduledJob.ПолучениеПочты</scheduledJobs>
   <constants>Constant.АктивныйПрофильLLM</constants>
@@ -72,6 +73,9 @@
   <catalogs>Catalog.ИОО_ПровайдерыLLM</catalogs>
   <catalogs>Catalog.ИОО_КаналыОбращений</catalogs>
   <catalogs>Catalog.ИОО_ПрофилиLLM</catalogs>
+  <catalogs>Catalog.ИОО_ПравилаОбезличивания</catalogs>
+  <catalogs>Catalog.ИОО_ПоляЗапросаLLM</catalogs>
+  <catalogs>Catalog.ИОО_ПоляНастроекИнтеграции</catalogs>
   <documents>Document.ИОО_Обращение</documents>
   <enums>Enum.ИОО_ИсточникиСообщений</enums>
   <enums>Enum.ИОО_ТипыПараметров</enums>
@@ -81,14 +85,22 @@
   <enums>Enum.ИОО_УчастникиДиалога</enums>
   <enums>Enum.ИОО_СтатусыИтерацийКлассификации</enums>
   <enums>Enum.ИОО_СтатусыИтерацийЧерновиков</enums>
+  <enums>Enum.ИОО_РежимыОбезличивания</enums>
+  <enums>Enum.ИОО_ТипыДанныхПДн</enums>
+  <enums>Enum.ИОО_КатегорииДанных</enums>
+  <enums>Enum.ИОО_ФункцииПрофиля</enums>
+  <enums>Enum.ИОО_НазначенияНастроекИнтеграции</enums>
+  <enums>Enum.ИОО_ТипыЗначенийНастроек</enums>
   <dataProcessors>DataProcessor.НачальнаяСтраница</dataProcessors>
   <dataProcessors>DataProcessor.РабочееМестоОператора</dataProcessors>
   <dataProcessors>DataProcessor.ПанельРуководителя</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПодключения</dataProcessors>
+  <dataProcessors>DataProcessor.ИОО_КонструкторНастроекИИ</dataProcessors>
   <informationRegisters>InformationRegister.ИОО_ЖурналВызововИИ</informationRegisters>
   <informationRegisters>InformationRegister.ИсправленияКлассификации</informationRegisters>
   <informationRegisters>InformationRegister.ИОО_СообщенияЧатаИИ</informationRegisters>
   <informationRegisters>InformationRegister.ИОО_ПулЧерновиковОтветовИИ</informationRegisters>
   <informationRegisters>InformationRegister.ИОО_СоответствиеРезультатовКлассификации</informationRegisters>
   <informationRegisters>InformationRegister.ИОО_СоответствиеЧерновиковОтветов</informationRegisters>
+  <informationRegisters>InformationRegister.ИОО_КартаТокенов</informationRegisters>
 </mdclass:Configuration>

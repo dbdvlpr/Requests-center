@@ -665,6 +665,21 @@
     <fillValue xsi:type="core:StringValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="840c522e-5677-46e1-9139-b8c5df13cab1">
+    <name>УровеньЭмоциональностиИИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень эмоциональности ИИ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИОО_УровниЭмоциональности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="ea20c116-df62-4c74-b8b2-33306a4cef61">
     <name>ФормаДокумента</name>
     <synonym>

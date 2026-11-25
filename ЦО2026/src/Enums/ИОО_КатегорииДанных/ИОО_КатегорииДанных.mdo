@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae91a7fe-7ff5-42af-b7ca-b3813dedabef">
+  <producedTypes>
+    <refType typeId="16314f96-deb0-4f2d-8e9a-f68e7a44753b" valueTypeId="d0cfc9cf-84fd-4017-9994-249467514f95"/>
+    <listType typeId="58211f13-8bd9-4491-8c27-a49058ccfec8" valueTypeId="52ccf23f-503d-4b8e-a6be-ac7999aa6821"/>
+    <managerType typeId="741e7039-a530-481b-bf28-4d4652cba675" valueTypeId="1a4ea7f5-3f5c-4b68-97fa-1e6b8b600e66"/>
+  </producedTypes>
+  <name>ИОО_КатегорииДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории данных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1a1059b3-f137-437b-838f-c0e5b7cf7392">
+    <name>Персональные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персональные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aee1aef8-a08f-4a14-9a6d-07a4efe6990b">
+    <name>Контактные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b64e66d-d4c4-4620-9ad0-60e5b0e4981b">
+    <name>Коммерческие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коммерческие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="153c7ae8-4020-48b6-a4ed-e9fbb0588f63">
+    <name>Служебные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01670424-1d4c-46de-acf1-61cf10b78e27">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

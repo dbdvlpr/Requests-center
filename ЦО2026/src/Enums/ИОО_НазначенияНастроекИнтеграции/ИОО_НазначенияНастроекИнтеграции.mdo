@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bfc25de-f5ad-4dd7-9888-f6b8fef42878">
+  <producedTypes>
+    <refType typeId="85cfb804-e190-4ebe-a3aa-3eae5fc8644c" valueTypeId="33fb2f0b-16c7-40b3-a330-180766cf3148"/>
+    <listType typeId="d535bcfb-cace-4374-93b0-90288e4e826e" valueTypeId="65658d0b-b22b-426d-a88d-90895e498264"/>
+    <managerType typeId="5b4975ce-39a9-474c-88d2-34df98741168" valueTypeId="eb03d2f1-fdad-4b74-9e89-d7afc59c23b7"/>
+  </producedTypes>
+  <name>ИОО_НазначенияНастроекИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения настроек интеграции</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f978cef2-e5d1-400e-84e7-ce7d7f851c60">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTTP-заголовок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95e68659-4207-4bc6-98e3-dd7f6d769df5">
+    <name>ПараметрАдреса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр адреса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7faaaa2f-3bb1-46aa-a1bf-d9157b13f31b">
+    <name>ПолеТела</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле тела запроса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd9f81df-f3e5-4bbd-ad80-2b43cc3f943e">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит подключения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

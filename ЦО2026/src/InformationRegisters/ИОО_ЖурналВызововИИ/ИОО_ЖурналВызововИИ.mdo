@@ -187,6 +187,51 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="4c5ab8fc-b65d-4799-b40b-10223b35271a">
+    <name>Обезличено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обезличено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c15031ba-d1a2-4379-b80b-bea41050d13e">
+    <name>УтечекНайдено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утечек найдено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="51e755bb-c24e-4787-85dd-931f18274057">
+    <name>РежимОбезличивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим обезличивания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИОО_РежимыОбезличивания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="11734408-d8c9-5898-a4b1-ddffba0dd208">
     <name>Идентификатор</name>
     <synonym>
