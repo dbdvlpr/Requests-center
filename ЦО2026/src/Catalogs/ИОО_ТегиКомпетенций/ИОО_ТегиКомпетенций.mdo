@@ -10,7 +10,7 @@
   <name>ИОО_ТегиКомпетенций</name>
   <synonym>
     <key>ru</key>
-    <value>ИОО теги компетенций</value>
+    <value>Теги компетенций (ИОО)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ИОО_ТегиКомпетенций.StandardAttribute.Description</inputByString>

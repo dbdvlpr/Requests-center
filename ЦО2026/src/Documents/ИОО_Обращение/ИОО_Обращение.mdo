@@ -666,10 +666,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="840c522e-5677-46e1-9139-b8c5df13cab1">
-    <name>УровеньЭмоциональностиИИ</name>
+    <name>УдалитьУровеньЭмоциональностиИИ</name>
     <synonym>
       <key>ru</key>
-      <value>Уровень эмоциональности ИИ</value>
+      <value>Удалить уровень эмоциональности ИИ</value>
     </synonym>
     <type>
       <types>CatalogRef.ИОО_УровниЭмоциональности</types>

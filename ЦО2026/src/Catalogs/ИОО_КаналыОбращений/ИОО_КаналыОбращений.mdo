@@ -10,7 +10,7 @@
   <name>ИОО_КаналыОбращений</name>
   <synonym>
     <key>ru</key>
-    <value>Каналы обращений</value>
+    <value>Каналы обращений (ИОО)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>

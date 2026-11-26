@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2e7bfd8-3a9a-4acf-99c1-9753c46eecac">
-  <name>ЦентрОбращений</name>
+  <name>ИнтеллектуальнаяОбработкаОбращений</name>
   <synonym>
     <key>ru</key>
-    <value>Центр интеллектуальной обработки клиентских обращений</value>
+    <value>ИОО</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="af4d8fef-36c6-4861-8577-ebd3bb52f360"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="088dcc31-188f-488f-a4cc-843713f7bc13"/>
@@ -45,8 +45,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.РаботаСОбращениями</subsystems>
-  <subsystems>Subsystem.НастройкаОбращений</subsystems>
+  <subsystems>Subsystem.ИнтеллектуальнаяОбработкаОбращений</subsystems>
+  <commonPictures>CommonPicture.КартинкаКонфигурации</commonPictures>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ОператорПоддержки</roles>
   <roles>Role.Руководитель</roles>

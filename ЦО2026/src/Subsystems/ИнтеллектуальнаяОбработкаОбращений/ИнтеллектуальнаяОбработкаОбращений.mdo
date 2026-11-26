@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2479fccf-b147-4bc9-95af-9bb8e7de9c5f">
+  <name>ИнтеллектуальнаяОбработкаОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИОО</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КартинкаКонфигурации</picture>
+  </picture>
+  <subsystems>РаботаСОбращениями</subsystems>
+</mdclass:Subsystem>

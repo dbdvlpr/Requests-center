@@ -183,7 +183,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.ЦентрОбращений</name>
+		<name>Configuration.ИнтеллектуальнаяОбработкаОбращений</name>
 		<right>
 			<name>ThinClient</name>
 			<value>true</value>

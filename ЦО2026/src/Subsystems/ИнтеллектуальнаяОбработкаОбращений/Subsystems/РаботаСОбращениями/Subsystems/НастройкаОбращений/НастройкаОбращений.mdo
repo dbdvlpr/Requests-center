@@ -20,4 +20,5 @@
   <content>Catalog.ИОО_ПриоритетыКонтрагентов</content>
   <content>Catalog.ИОО_ТегиКомпетенций</content>
   <content>DataProcessor.НастройкиПодключения</content>
+  <parentSubsystem>Subsystem.ИнтеллектуальнаяОбработкаОбращений.Subsystem.РаботаСОбращениями</parentSubsystem>
 </mdclass:Subsystem>

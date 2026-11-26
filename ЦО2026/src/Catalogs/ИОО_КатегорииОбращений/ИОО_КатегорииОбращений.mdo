@@ -10,7 +10,7 @@
   <name>ИОО_КатегорииОбращений</name>
   <synonym>
     <key>ru</key>
-    <value>ИОО категории обращений</value>
+    <value>Категории обращений (ИОО)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ИОО_КатегорииОбращений.StandardAttribute.Description</inputByString>

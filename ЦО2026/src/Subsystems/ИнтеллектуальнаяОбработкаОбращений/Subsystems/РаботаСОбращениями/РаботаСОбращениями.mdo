@@ -22,4 +22,6 @@
   <content>DataProcessor.НачальнаяСтраница</content>
   <content>DataProcessor.РабочееМестоОператора</content>
   <content>DataProcessor.ПанельРуководителя</content>
+  <subsystems>НастройкаОбращений</subsystems>
+  <parentSubsystem>Subsystem.ИнтеллектуальнаяОбработкаОбращений</parentSubsystem>
 </mdclass:Subsystem>
