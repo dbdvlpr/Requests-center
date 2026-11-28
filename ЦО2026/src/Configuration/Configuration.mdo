@@ -91,6 +91,7 @@
   <enums>Enum.ИОО_ФункцииПрофиля</enums>
   <enums>Enum.ИОО_НазначенияНастроекИнтеграции</enums>
   <enums>Enum.ИОО_ТипыЗначенийНастроек</enums>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
   <dataProcessors>DataProcessor.НачальнаяСтраница</dataProcessors>
   <dataProcessors>DataProcessor.РабочееМестоОператора</dataProcessors>
   <dataProcessors>DataProcessor.ПанельРуководителя</dataProcessors>

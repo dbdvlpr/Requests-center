@@ -162,6 +162,31 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="f9770a35-6ed7-42ae-a907-9e0998197dc3">
+    <producedTypes>
+      <objectType typeId="8aad86ea-9dd8-4dc4-8129-105d0d7a664b" valueTypeId="8f9eab09-2bf5-4268-9c05-8d9236ecf550"/>
+      <rowType typeId="f9c9a49b-5b9d-4731-886c-b4a158dfe325" valueTypeId="dfddd68e-6f39-40e6-8df8-bc82bdc4b615"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактная информация</value>
+    </synonym>
+    <attributes uuid="9e367f6f-8ec7-41bd-ab63-80c796167d68">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыКонтактнойИнформации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="60da015d-e560-42af-b97a-57a57808aff1">
     <name>ФормаСписка</name>
     <synonym>
